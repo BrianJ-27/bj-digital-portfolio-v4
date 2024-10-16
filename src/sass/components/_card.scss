@@ -1,0 +1,58 @@
+// **************************************
+// CARD STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+
+.card {
+  background-color: var(--clr-bg-blanco);
+  overflow: hidden;
+  border-radius: 10px;
+  width: 260px;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+}
+
+.card__img--container {
+  width: 100%;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.card__img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.card__body {
+  padding: 1rem 1.25rem;
+  height: auto;;
+}
+
+.card__live-link {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #8121D0;
+  text-decoration: underline;
+}
+
+.card__content {
+  padding: .25rem 0 .75rem;
+}
+
+.card__button {
+  background-color: hsl(266, 49%, 22%);
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  padding: .5rem 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+  border-radius: 10px;
+}
+
+

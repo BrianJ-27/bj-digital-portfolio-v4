@@ -1,0 +1,62 @@
+// **************************************
+// BANNER STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+.banner__container {
+  padding: 1rem 0 0;
+}
+
+.banner__content {
+  padding-left: px-to-rems(30px);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  @include mq('md') {
+    background: linear-gradient(to right, hsla(266, 49%, 22%, 1), hsla(266, 49%, 22%, 0.9), hsla(266, 35%, 17%, 0.8), hsla(266, 35%, 17%, 1));
+    width: 60%;
+    padding-left: px-to-rems(50px);
+    margin-top: unset;
+    margin-bottom: unset;
+    position: relative ;
+  }
+  @include mq ('lg') {
+    padding-left: px-to-rems(60px);
+
+  }
+ }
+
+ .banner__img--container  {
+  width: 40%;
+  position: relative;
+  display: inline-block;
+ }
+
+.banner__cta--container {
+  padding: 1rem 0 0;
+}
+
+.banner__icons {
+  width: clamp(px-to-rems(30px), 8.5vw, px-to-rems(60px)) ;
+  height: clamp(px-to-rems(30px), 8.5vw, px-to-rems(60px));
+  @include mq("md") {
+    width: clamp(px-to-rems(40px), 5.2vw, px-to-rems(50px)) ;
+  }
+}
+.banner__icons:nth-of-type(2) {
+  margin-inline: .75rem
+}
+
+.banner__stats {
+  background-color: var(--clr-primary-color);
+  @include mq("md") {
+    padding-left: px-to-rems(50px);
+    padding-right: px-to-rems(50px);
+  }
+  @include mq("lg") {
+    padding-left: px-to-rems(60px);
+    padding-right: px-to-rems(60px);
+
+  }
+}

@@ -1,0 +1,33 @@
+// **************************************
+// THEME COLOR MAP
+// **************************************
+/*
+Color Wheel:
+  Black: hsl(255, 0%, 0%)
+  Dark Grey: hsl(237, 12%, 33%)
+  Grey: hsl(240, 6%, 50%)
+  White: hsl(255, 100%, 100%)
+*/
+$colors: (
+  // Primary Project Color
+  primary: (
+    color: hsl(266, 35%, 17%)
+
+  ),
+  // Accent Project Color
+  accent: (
+    color: hsl(39, 72%, 82%),
+    color2: hsl(273, 73%, 47%),
+  ),
+  // Background Project Color
+  bg: (
+    main: hsl(266, 49%, 22%),
+    blanco: hsl(0, 0%, 100%),
+    stone: hsl(0, 0%, 85%),
+  ),
+  // Text Project Colors
+  text: (
+    light: hsl(0, 0%, 100%),
+    dark: hsl(255, 0%, 0%)
+  )
+);

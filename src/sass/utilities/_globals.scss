@@ -1,0 +1,50 @@
+// **************************************
+// GLOBAL SCSS VARIABLES
+// **************************************
+@use "./colors" as *;
+@use "./breakpoints" as *;
+@use "./fonts" as *;
+@use "./mixins" as *;
+
+
+/*
+Global Custom Properties:
+  *COLORS*
+    purple: hsl(238deg, 29%, 16%);
+    orange: hsl(14deg, 88%, 65%);
+    dark purple: hsl(240deg, 73%, 65%);
+    black: hsl(255deg, 0%, 0%);
+    dark Grey: hsl(237, 12%, 33%)
+    grey: hsl(240, 6%, 50%)
+    white: hsl(255, 100%, 100%)
+  *FONT PROPERTIES*
+    font-size: 1rem;
+    font-weight: 400;
+    font-family Arial sans-serif;
+    line-height: 1.5;
+  *lAYOUT PROPERTIES*
+    max-width: 1200px;
+    space: 15px;
+    border-radius: 10px;
+*/
+
+:root {
+  /*-----Color Custom Properties-----*/
+  @each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+      --clr-#{$color}-#{$shade}: #{$value};
+    }
+  }
+
+  /*-----Font Custom Properties-----*/
+  @each $font, $props in $font-love {
+    @each $prop, $value in $props {
+      --fp-#{$font}-#{$prop}: #{$value};
+    }
+  }
+
+  /*-----Layout Custom Properties-----*/
+  --max-width: 1200px;
+  --space: 15px;
+  --curved-radius: 10px;
+}

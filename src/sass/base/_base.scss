@@ -1,0 +1,87 @@
+// **************************************
+// BASE STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+/*-----BASE GLOBAL STYLES------*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  @extend %body-properties;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.body__container {
+  background-color: var(--clr-bg-main);
+}
+
+
+main {
+overflow: hidden;
+@include mq ('md') {
+  background-color: var(--clr-bg-stone);
+}
+}
+
+header {
+  background: linear-gradient(to right, var(--clr-accent-color2), var(--clr-bg-main) 75%);
+  padding: .5rem 0;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  @include mq('md') {
+    background: linear-gradient(to right, var(--clr-accent-color2), var(--clr-bg-main) 75%, transparent);
+    width: 90%;
+    z-index: 5;
+
+  }
+  @include mq('lg') {
+    width: 66%;
+    border-top-right-radius: 5% -30%;
+    border-bottom-right-radius: 5% 30%;
+  }
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  @extend %text-modules;
+}
+
+a {
+  @extend %link-properties;
+}
+
+/*visually hidden */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.padB40 {
+  padding-bottom: px-to-rems(40px);
+  @include mq('md') {
+    padding-bottom: unset;
+  }
+}

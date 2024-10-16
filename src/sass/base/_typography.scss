@@ -1,0 +1,155 @@
+// **************************************
+// TYPOGRAPHY STYLES
+// **************************************
+@use "../utilities" as *;
+
+/*----HEADING STYLES----*/
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--fp-font-main);
+  text-wrap: balance;
+}
+
+// h1 styles
+.title__primary {
+  @extend %text-modules;
+  margin-top: px-to-rems(50px);
+  @include text-prop(
+    $size: clamp(px-to-rems(40px), 12vw, 5rem),
+    $f-weight: 400,
+    $l-height: 1.2,
+    $color: var(--clr-text-light)
+  );
+  @media screen and (min-width: 600px) {
+    margin-top: px-to-rems(90px);
+  }
+  @include mq("md") {
+    margin-top: unset;
+    @include text-prop(
+      $size: clamp(px-to-rems(40px), 5vw, 5rem),
+    )
+  }
+}
+
+// h2 styles
+.title__secondary {
+  @include text-prop(
+    $size: clamp(0.875rem, 4vw, 1.2rem),
+    $f-weight: 500,
+    $color: var(--clr-text-light)
+  );
+  @extend %text-modules;
+  &--dark {
+    @extend %center-text;
+    @include text-prop(
+      $size: clamp(px-to-rems(26px), 7.5vw, px-to-rems(56px)),
+      $f-weight: 700,
+      $color: var(--clr-text-color)
+    );
+   margin-bottom: px-to-rems(12px);
+   @include mq("md") {
+    text-align: left;
+    margin-top: px-to-rems(30px);
+    @include text-prop(
+      $size: clamp(px-to-rems(20px), 2.75vw, px-to-rems(40px)),
+    );
+  }
+   @include mq("lg") {
+    margin-top: px-to-rems(50px);
+
+   }
+  }
+
+  &--projects {
+    margin-bottom: px-to-rems(30px);
+    @include text-prop(
+      $size: clamp(px-to-rems(26px), 6vw, px-to-rems(32px)),
+      $f-weight: 700,
+      $color: var(--clr-text-light)
+    );
+    @extend %center-text;
+    @include mq("md") {
+      margin-bottom: unset;
+      color: var(--clr-text-color);
+      text-align: left;
+      padding-left: 20px;
+      padding-right: 18%;
+    }
+  }
+
+  &--skills {
+    @include text-prop(
+      $size: clamp(px-to-rems(26px), 7.5vw, px-to-rems(32px)),
+      $color: var(--clr-text-color)
+    );
+    @extend %center-text;
+    margin-bottom: px-to-rems(30px);
+    @include mq("md") {
+      text-align: left;
+    }
+
+  }
+}
+
+/*----CONTENT STYLES----*/
+// p styles
+.content {
+  @include text-prop(
+    $size: px-to-rems(18px),
+    $f-weight: 800,
+    $color: var(--clr-text-color)
+  );
+
+  &--about-me {
+    @include text-prop(
+      $size: clamp(px-to-rems(16px), 5vw, px-to-rems(36px)),
+      $l-height: 1.4,
+      $f-weight: 400,
+      $color: var(--clr-text-color)
+    );
+    @include mq("md") {
+      @include text-prop(
+        $size: clamp(px-to-rems(15px), 2vw, px-to-rems(28px)),
+      );
+    }
+    @include mq("lg") {
+      @include text-prop(
+        $size: clamp(px-to-rems(18px), 2vw, px-to-rems(28px)),
+      );
+    }
+  }
+
+
+  &--stats {
+    @include text-prop(
+      $size: clamp(px-to-rems(18px), 2.25vw, px-to-rems(28px)),
+      $l-height: 1.2,
+      $f-weight: 400,
+      $color: var(--clr-text-light)
+    );
+  }
+
+  &--large {
+    font-size: clamp(3rem, 6.25vw, 5rem);
+  }
+}
+
+.subtitle {
+  @include text-prop(
+    $size: clamp(1.25rem, 6.5vw, 2.5rem),
+    $f-weight: 400,
+    $color: var(--clr-accent-color)
+  );
+
+
+  &--projects {
+    border-bottom: 1px solid var(--clr-accent-color);
+    @include text-prop($size: clamp(0.875rem, 4vw, 1.125rem),)
+  }
+
+  @include mq("md") {
+    @include text-prop(
+      $size: clamp(1.25rem, 4vw, 2.5rem),
+    )
+  }
+
+}

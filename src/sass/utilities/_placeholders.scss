@@ -1,0 +1,34 @@
+// **************************************
+// PLACEHOLDERS
+// **************************************
+@use "./globals" as *;
+@use "./colors" as c;
+
+// Global Body Tag Styles
+%body-properties {
+  font-family: var(--fp-font-main);
+  line-height: 1.4;
+}
+
+// Center Grid Content (For Component projects)
+%ctr-grid-content {
+  display: grid;
+  place-items: center;
+}
+
+// Global Heading & Paragraph Styles
+%text-modules {
+  letter-spacing: 1px;
+  word-spacing: 0.5px;
+}
+
+// Global Link Styles
+%link-properties {
+  display: inline-block;
+  text-decoration: none;
+}
+// Center Styles
+%center-text {
+  text-align: center;
+}
+

@@ -1,0 +1,33 @@
+// **************************************
+// CAROUSEL | SLIDER STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+
+.slider__header {
+  max-width: 320px;
+
+}
+
+.slider__container {
+  margin-block: 3.125rem 4.375rem;
+  position: relative;
+}
+
+
+.slider__cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: scroll; /* Allows horizontal scrolling */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  @include mq('md') {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+}

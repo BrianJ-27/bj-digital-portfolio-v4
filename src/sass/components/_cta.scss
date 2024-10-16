@@ -1,0 +1,61 @@
+// **************************************
+// CTA BUTTON & LINK STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+.cta__contact {
+  display: inline-block;
+  background-color: var(--clr-bg-blanco);
+  padding: .75rem 2rem;
+  color: var(--clr-text-dark);
+  font-size:clamp(px-to-rems(18px), 3vw, px-to-rems(22px));
+  font-weight: 700;
+  border-radius: 10px;
+
+}
+
+.cta__project--container {
+  margin-bottom: px-to-rems(20px);
+  @include mq("md") {
+    margin-bottom: unset;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 35%;
+  };
+}
+
+.cta__project {
+width: 100%;
+  padding-block: .65rem;
+  border: 2px solid var(--clr-text-light);
+  background-color: transparent;
+  color: var(--clr-text-light);
+  font-weight: 700;
+  font-size: 1.125em;
+  position: relative;
+  cursor: pointer;
+  transition: background-color color 0.3s ease;
+  &--active {
+    background-color: var(--clr-bg-blanco);
+    color: var(--clr-text-dark);
+  }
+  &:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  &:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+@include mq("md") {
+  width: 5.625rem;
+  border: 2px solid var(--clr-text-dark);
+  color: var(--clr-text-dark);
+  &--active {
+    background-color: var(--clr-primary-color);
+    color: var(--clr-text-light);
+  }
+}
+}

@@ -1,0 +1,149 @@
+// **************************************
+// LAYOUT STYLES
+// **************************************
+
+@use "../utilities" as *;
+
+.container {
+  padding-inline: 1.875rem;
+
+  @include mq("md") {
+    padding-inline: px-to-rems(50px);
+  }
+  @include mq("lg") {
+    padding-inline: px-to-rems(60px);
+  }
+}
+
+/*------FLEXBOX LAYOUT STYLES-----------*/
+
+.flex {
+  display: flex;
+}
+
+.flex__column {
+  flex-direction: column;
+}
+
+.flex__row {
+  flex-direction: row;
+  &--md {
+    @include mq('md') {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+.flex__start {
+  justify-content: flex-start;
+  @include mq('md') {
+    align-items: flex-start;
+  }
+}
+
+.flex__end {
+  justify-content: flex-end;
+}
+
+.flex__around {
+  justify-content: space-around;
+}
+
+.flex__between {
+  justify-content: space-between;
+}
+
+.flex__center {
+  justify-content: center;
+}
+
+.flex__v--center {
+  align-items: center;;
+}
+
+.flex__wrap {
+  flex-wrap: wrap;
+}
+
+.flex__nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex__grow {
+  flex: 1;
+  &--half_double {
+    @include mq('md') {
+      flex: 1.35;
+    }
+  }
+  &--double {
+    @include mq('md') {
+      flex: 1.75;
+    }
+  }
+}
+
+.gap20 {
+  gap: px-to-rems(20px);
+}
+
+/*------GRID LAYOUT STYLES-----------*/
+
+.grid__container {
+  @extend %ctr-grid-content;
+  min-height: 100vh;
+}
+
+.main__grid--container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: px-to-rems(88px) auto 1fr px-to-rems(86px);
+  grid-template-areas:
+    "grid-header"
+    "grid-banner"
+    "grid-main"
+    "grid-nav";
+    @include mq('md') {
+      grid-template-rows: px-to-rems(74px) px-to-rems(650px) 1fr;
+      grid-template-columns: 50% 50%;
+      grid-template-areas:
+      "grid-header grid-header"
+      "grid-banner grid-banner"
+      "grid-main grid-main";
+    }
+}
+
+.grid_header {
+  grid-area: grid-header;
+}
+
+.grid_banner {
+  grid-area: grid-banner;
+  @include mq('md') {
+    margin-top: px-to-rems(-72px);
+  }
+}
+
+.grid_main {
+  grid-area: grid-main;
+}
+.grid_nav {
+  grid-area: grid-nav;
+}
+
+/*------About Me Styles-----------*/
+.about__me {
+  background-color: var(--clr-bg-blanco);
+  padding-top: px-to-rems(20px);
+  border-radius: 10px;
+
+  div:nth-of-type(1) {
+   padding-inline: px-to-rems(20px);
+
+  }
+  @include mq('md') {
+  padding-top: unset;
+  margin-top: px-to-rems(96px);
+  }
+}

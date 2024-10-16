@@ -1,0 +1,28 @@
+// **************************************
+// FONT MAPS
+// **************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,200;0,400;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+$font-love: (
+  size: (
+    main: 1rem,
+  ),
+  weight: (
+    light: 200,
+    semi-light: 300,
+    main: 400,
+    bold: 700,
+  ),
+  font: (
+    main: 'Ubuntu',
+    secondary: 'Rokkitt',
+    fallback: sans-serif,
+  ),
+  l-height: (
+    slight: 1.1,
+    main: 1.3,
+    large: 1.5,
+  ),
+);
