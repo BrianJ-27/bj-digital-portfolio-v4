@@ -15,8 +15,8 @@
   "copy-assets": "cp -r src/assets dist/assets",
   "build": "npm-run-all build-html build-css build-js build-assets",
   "build-html": "html-minifier --collapse-whitespace --remove-comments --minify-css true --minify-js true src/index.html -o dist/index.html",
-  "build-css": "sass src/sass/main.scss | postcss -o dist/css/main.css",
-  "build-js": "uglifyjs src/js/main.js -o dist/js/main.js",
+  "build-css": "sass src/sass/main.scss | postcss -o dist/main.css",
+  "build-js": "uglifyjs src/js/main.js -o dist/main.js",
   "build-assets": "cp -r src/assets dist/assets"
 }
 ,

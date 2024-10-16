@@ -13,10 +13,6 @@ Thumbs.db
 .env
 .env.local
 
-# Ignore compiled CSS (if you're using Sass/SCSS)
-*.css
-*.css.map
-
 # Ignore built directories for static site generators
 
 build/
