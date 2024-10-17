@@ -12,6 +12,11 @@
   font-size:clamp(px-to-rems(18px), 3vw, px-to-rems(22px));
   font-weight: 700;
   border-radius: 10px;
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--clr-primary-color);
+    color: var(--clr-text-light);
+    border: 2px solid var(--clr-text-light);
+  }
 
 }
 

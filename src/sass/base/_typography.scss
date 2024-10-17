@@ -74,6 +74,11 @@
       padding-left: 20px;
       padding-right: 18%;
     }
+    @include mq("lg") {
+      @media (prefers-color-scheme: dark) {
+        color: var(--clr-primary-color);
+      }
+    }
   }
 
   &--skills {

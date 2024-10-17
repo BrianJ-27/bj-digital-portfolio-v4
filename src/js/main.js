@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function createCard({ image, title, liveLink, copy, gitLink }) {
       return `
         <li>
-          <div class="card">
+          <div class="card dm_bg_dark_purple">
             <div class="card__img--container">
               <img class="card__img" src="${image}" height="auto" alt="card image">
             </div>
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <a href="${liveLink}" class="card__live-link">Live View</a>
               <p class="card__content">${copy}</p>
               <a href="${gitLink}" class="card__button">
-                <svg style="width: 1.25rem; height: 1.25rem" viewBox="0 0 16 16" aria-hidden="true">
+                <svg class="card__icon" style="width: 1.25rem; height: 1.25rem" viewBox="0 0 16 16" aria-hidden="true">
                   <use xlink:href="./assets/images/bj-icon-map.svg#github-white"></use>
                 </svg> View Code</a>
               </div>
