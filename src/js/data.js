@@ -1,0 +1,58 @@
+const cardsData = [
+  {
+    id: 1,
+    image: "../assets/images/6th-project_800px.png",
+    title: 'Marvel Word Guesser',
+    liveLink: "https://marvel-word-guesser.netlify.app/",
+    copy: 'Created a Marvel word guesser using class-based OOP in JS.',
+    gitLink: "https://github.com/BrianJ-27/web-game-show-app",
+    type: 'web',
+  },
+  {
+    id: 2,
+    image: "../assets/images/email-promo-fashion-pulse2.jpg",
+    title: 'Fashion Pulse Promo',
+    liveLink: "https://litmus.com/checklist/emails/public/gs5U5nUohJRXQ9c2",
+    copy: 'Fashion Adhoc promo email built with flexbox, ghost tables, divs.',
+    gitLink: "https://github.com/BrianJ-27/fashionPulse/tree/main",
+    type: 'email',
+  },
+  {
+    id: 3,
+    image: "../assets/images/7th-project_800px.png",
+    title: 'App Dashboard',
+    liveLink: "https://bj-dashboard.netlify.app/",
+    copy: 'Developed a web dashboard using JS modules and OOP.',
+    gitLink: "https://github.com/BrianJ-27/app-dashboard",
+    type: 'web',
+  },
+  {
+    id: 4,
+    image: "../assets/images/email-newsletter-fashion-pulse.jpg",
+    title: 'FP Newsletter',
+    liveLink: "https://litmus.com/checklist/emails/public/nlLBk19sQJLYZLoX",
+    copy: 'Fashion newsletter email built with flexbox, ghost tables, divs.',
+    gitLink: "https://github.com/BrianJ-27/fashionPulse/tree/main",
+    type: 'email',
+  },
+  {
+    id: 5,
+    image: "../assets/images/8th-project_800px.png",
+    title: 'Employee Directory',
+    liveLink: "https://bj-employee-directory.netlify.app/",
+    copy: 'Constructed an employee directory with fetch API, OOP, and JS modules.',
+    gitLink: "https://github.com/BrianJ-27/Employee-Directory-Project8",
+    type: 'web',
+  },
+  {
+    id: 6,
+    image: "https://fakeimg.pl/280x150?text=Coming+Soon",
+    title: 'Transactional Email',
+    liveLink: "/",
+    copy: 'Building responsive, clear transactional emails for confirmations.',
+    gitLink: "",
+    type: 'email',
+  },
+];
+
+export default cardsData;
