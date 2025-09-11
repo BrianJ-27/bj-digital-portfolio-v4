@@ -701,7 +701,7 @@ video {
   font-size: clamp(16px, 5vw, 36px);
   line-height: 1.4;
   font-weight: 400;
-  color: var(--clr-text-color);
+  color: var(--clr-text-light);
 }
 @media (min-width: 768px) {
   .content--about-me {
