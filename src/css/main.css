@@ -651,7 +651,7 @@ video {
 .title__secondary--dark {
   font-size: clamp(26px, 7.5vw, 56px);
   font-weight: 700;
-  color: var(--clr-text-color);
+  color: var(--clr-text-light);
   margin-bottom: 12px;
 }
 @media (min-width: 768px) {
@@ -711,6 +711,11 @@ video {
 @media (min-width: 1024px) {
   .content--about-me {
     font-size: clamp(18px, 2vw, 28px);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .content--about-me {
+    color: var(--clr-text-light);
   }
 }
 .content--stats {

@@ -43,7 +43,7 @@
     @include text-prop(
       $size: clamp(px-to-rems(26px), 7.5vw, px-to-rems(56px)),
       $f-weight: 700,
-      $color: var(--clr-text-color)
+      $color: var(--clr-text-light)
     );
    margin-bottom: px-to-rems(12px);
    @include mq("md") {
@@ -115,6 +115,9 @@
         $size: clamp(px-to-rems(18px), 2vw, px-to-rems(28px)),
       );
     }
+     @media (prefers-color-scheme: dark) {
+      color: var(--clr-text-light);
+     }
   }
 
 
