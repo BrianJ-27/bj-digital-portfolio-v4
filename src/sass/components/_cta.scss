@@ -12,16 +12,25 @@
   font-size:clamp(px-to-rems(18px), 3vw, px-to-rems(22px));
   font-weight: 700;
   border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
   @media (prefers-color-scheme: dark) {
     background-color: var(--clr-primary-color);
     color: var(--clr-text-light);
     border: 2px solid var(--clr-text-light);
   }
 
+  &:hover {
+    background-color: var(--clr-accent-color);
+  }
+
 }
 
 .cta__project--container {
   margin-bottom: px-to-rems(20px);
+     gap: 10px;
   @include mq("md") {
     margin-bottom: unset;
     position: absolute;
@@ -41,6 +50,11 @@ width: 100%;
   font-size: 1.125em;
   position: relative;
   cursor: pointer;
+ transition: background-color .3s ease-in-out, color .3s ease-in-out;
+   &:hover {
+        background-color: var(--clr-accent-color);
+        color: var(--clr-primary-color);
+      }
   transition: background-color color 0.3s ease;
   &--active {
     background-color: var(--clr-bg-blanco);
@@ -54,13 +68,8 @@ width: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-@include mq("md") {
-  width: 5.625rem;
-  border: 2px solid var(--clr-text-dark);
-  color: var(--clr-text-dark);
-  &--active {
-    background-color: var(--clr-primary-color);
-    color: var(--clr-text-light);
-  }
 }
+
+.cta__container--text {
+  font-size: 1.5rem;
 }

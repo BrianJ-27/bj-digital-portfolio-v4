@@ -9,21 +9,11 @@
 }
 
 .banner__content {
-  padding-left: px-to-rems(30px);
+  padding-inline: px-to-rems(30px);
   width: 100%;
-  position: absolute;
-  top: 0;
   @include mq('md') {
-    background: linear-gradient(to right, hsla(266, 49%, 22%, 1), hsla(266, 49%, 22%, 0.9), hsla(266, 35%, 17%, 0.8), hsla(266, 35%, 17%, 1));
-    width: 60%;
     padding-left: px-to-rems(50px);
-    margin-top: unset;
-    margin-bottom: unset;
-    position: relative ;
-  }
-  @include mq ('lg') {
-    padding-left: px-to-rems(60px);
-
+    background-image: url("../../assets/images/3163534-uhd_3840_2160_30fps.mp4");
   }
  }
 
@@ -34,7 +24,7 @@
  }
 
 .banner__cta--container {
-  padding: 1rem 0 0;
+  padding: 2rem 0 4rem;
 }
 
 .banner__icons {
@@ -49,7 +39,8 @@
 }
 
 .banner__stats {
-  background-color: var(--clr-primary-color);
+border-radius: 20px;
+margin-inline: px-to-rems(50px);
   @include mq("md") {
     padding-left: px-to-rems(50px);
     padding-right: px-to-rems(50px);

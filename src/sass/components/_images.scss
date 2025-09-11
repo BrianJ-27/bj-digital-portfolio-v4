@@ -8,7 +8,6 @@
   color: #ffffff;
   font-size: 1rem;
   font-weight: 700;
-  padding-block: .25rem 0;
  }
 
 .img__banner {
@@ -17,6 +16,11 @@
   height: auto;
   object-fit: cover;
   filter: sepia(2%) contrast(3.5) brightness(1);
+}
+
+.img__about--me {
+  background-color: var(--clr-bg-blanco);
+  overflow: hidden;
 }
 
 .img__dt--overlay {

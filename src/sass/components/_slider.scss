@@ -19,7 +19,7 @@
 .slider__cards {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -29,5 +29,6 @@
   @include mq('md') {
     justify-content: flex-start;
     flex-wrap: nowrap;
+    padding: 20px;
   }
 }

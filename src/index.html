@@ -11,66 +11,62 @@
   <link rel="canonical" href="https://www.example.com/product/123">
   <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/images/apple-touch-icon.png" type="image/x-icon">
   <title>Brian's Web Portfolio</title>
 </head>
 
 <body>
+  <div class="video-container">
+    <video autoplay muted id="myVideo">
+      <source src="./assets/images/3163534-uhd_3840_2160_30fps.mp4" type="video/mp4">
+      </video>
+  </div>
   <div class="main__grid--container body__container">
-    <header class="grid_header flex flex__v--center">
+    <header class="grid_header glass3d">
+      <div class="site_container flex flex__v--center">
       <div class="container">
-        <a href="/">
+        <a href="/" class="header__logo--link-container" aria-label="Home. Brian Johnson Digital Portfolio">
           <img class="img__header--logo" width="64" height="64" src="./assets/images/BJ_Header_Logo.png" alt="Brian Johnson. Digital Portfolio. Home.">
         </a>
       </div>
-      <div class="hide--main-nav show--flex">
-        <nav aria-label="Desktop Primary" class="hide--main-nav show--flex">
-          <ul class="flex flex__v--center" style="gap: 30px">
-            <li><a class="nav__link--main nav__link--fade-up" href="">Home</a></li>
-            <li><a class="nav__link--main nav__link--fade-up" href="">The Scoop</a></li>
-            <li><a class="nav__link--main nav__link--fade-up" href="">Portfolio</a></li>
-            <li><a class="nav__link--main nav__link--fade-up" href="">Get in Touch</a></li>
+ <!--hamburger menu hidden in DT shown on Mobile-->
+      <div class="hamburger__menu">
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+      </div>
+      <!--main navigation-->
+      <nav aria-label="Main Navigation" class="header__nav--bar">
+          <ul class="header__nav--wrapper">
+              <li><a class="header--nav__link" href="#home">Home</a></li>
+              <li><a class="header--nav__link" href="#about">The Scoop</a></li>
+              <li><a class="header--nav__link" href="#projects">Portfolio</a></li>
+              <li><a class="header--nav__link" href="#contact">Get in Touch</a></li>
+              <li><a id="resume__desktop" class="header--nav__link" href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
           </ul>
-        </nav>
-        <a href="./assets/images/Brian-Developer-Resume-2024.pdf" class="nav__resume--dt" target="_blank">Resume</a>
-      </div>
+      </nav>
+    </div>
     </header>
-    <nav aria-labelledby="nav-label" class="nav__site--secondary hide" id="site-nav">
-      <span hidden id="nav-label">Secondary Site</span>
-      <button type="button" class="nav__toggle" id="nav-toggle" aria-expanded="false">
-        <svg class="nav__menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" aria-hidden="true">
-          <path fill="#ffffff" d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1m0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1M3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1" />
-        </svg> Navigation </button>
-      <div class="nav__content" role="group" id="nav-content" aria-labelledby="nav-toggle" inert>
-        <button type="button" class="nav-closeBtn" aria-labelledby="nav-closeBtn-label">
-          <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" id="nav-closeBtn">
-            <path fill="black" d="m13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42Z" />
-          </svg><span hidden id="nav-closeBtn-label">close</span></button>
-        <ul role="list">
-          <li role="listitem"><a href="#" class="nav__link--secondary">skills</a></li>
-          <li role="listitem"><a href="#" class="nav__link--secondary">about me</a></li>
-          <li role="listitem"><a href="#" class="nav__link--secondary">resume</a></li>
+     <nav aria-label="Secondary Mobile Navigation" class="nav__bar">
+        <ul class="nav__wrapper">
+            <li class="nav__item">
+                <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link nav__icon2" href="#about">The Scoop</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link nav__icon3" href="#projects">Portfolio</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link nav__icon6" href="#contact">Get in Touch</a>
+            </li>
+            <li class="nav__item"><a id="resume__mobile" class="nav__link nav__icon7" href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
         </ul>
-        <hr>
-        <div class="nav__icon--container">
-          <svg width="24" height="24" class="nav__icons" aria-hidden="true">
-            <use xlink:href="./assets/images/bj-icon-map.svg#github"></use>
-          </svg>
-          <svg width="24" height="24" class="nav__icons" aria-hidden="true">
-            <use xlink:href="./assets/images/bj-icon-map.svg#twitter-x"></use>
-          </svg>
-          <svg width="24" height="24" class="nav__icons" aria-hidden="true">
-            <use xlink:href="./assets/images/bj-icon-map.svg#linkedin"></use>
-          </svg>
-        </div>
-      </div>
     </nav>
-    <div role="region" aria-label="hero banner" class="grid_banner show--flex flex--grow" style="position: relative; padding-bottom: auto">
-      <div class="img__dt--overlay hide">
-        <img class="hide img__dt--overlay" src="./assets/images/hero_banner_headshot.png" alt="">
-      </div>
+    <div id="home" role="region" aria-label="hero banner" class="grid_banner show--flex flex--grow" style="position: relative;">
       <div class="banner__content flex flex__column flex__center">
-        <p class="title__primary">Crafting <br aria-hidden="true" /> Unforgettable <br aria-hidden="true" /> Experiences</p>
+        <p class="title__primary">Crafting <br aria-hidden="true"> Unforgettable <br aria-hidden="true"> Experiences</p>
         <p class="subtitle">Email / Web Developer</p>
         <div class="banner__container">
           <svg class="banner__icons" aria-hidden="true">
@@ -83,40 +79,35 @@
             <use xlink:href="./assets/images/bj-icon-map.svg#linkedin"></use>
           </svg>
           <div class="banner__cta--container hide">
-            <a href="#" class="cta__contact">Let's Link Up</a>
+            <a href="#" class="action-button primary cta__container--text">Let's Link Up</a>
           </div>
         </div>
       </div>
-      <div class="banner__img--container hide--mobile show--flex flex--grow">
-        <img class="img__banner" src="./assets/images/hero_banner_headshot.png" alt="">
-        <div class="img__banner--overlay"></div>
-      </div>
     </div>
-
     <main class="grid_main">
       <h1 class="sr-only">Brian's Online Web Portfolio</h1>
-      <div role="region" aria-label="accomplishments" class="hide--mobile show--flex flex__between banner__stats">
+      <div role="region" aria-label="accomplishments" class="hide--mobile show--flex flex__between banner__stats glass3d">
         <div class="flex flex__v--center gap20">
           <p class="content--stats content--large">7</p>
-          <p class="content--stats">Years of<br aria-hidden="true" /> Experience</p>
+          <p class="content--stats">Years of<br aria-hidden="true"> Experience</p>
         </div>
         <div class="flex flex__v--center gap20">
           <p class="content--stats content--large">320+</p>
-          <p class="content--stats">Code Reviews<br aria-hidden="true" /> Performed</p>
+          <p class="content--stats">Code Reviews<br aria-hidden="true"> Performed</p>
         </div>
         <div class="flex flex__v--center gap20">
           <p class="content--stats content--large">40</p>
-          <p class="content--stats">Projects<br aria-hidden="true" /> Completed</p>
+          <p class="content--stats">Projects<br aria-hidden="true"> Completed</p>
         </div>
       </div>
-      <section class="container">
-        <div class="flex flex__column flex__row--md about__me">
-          <div class="flex__grow--double">
+      <section class="container" id="about">
+        <div class="flex flex__column flex__row--md about__me glass3d">
+          <div class="flex__grow--double about__me--content">
             <h2 class="title__secondary--dark"> The Scoop On Me </h2>
             <p class="content--about-me">Hey! I&#39;m Brian a.k.a. BJ. As a Professional Email &amp; Web Developer, I love coding email templates and building SPA landing pages as well as personalized websites. I aim to create user-friendly and responsive experiences for diverse online audiences, so that your content can reach more people.</p>
           </div>
           <div class="flex__grow">
-            <img src="assets/images/about_me_headshot.png" alt="">
+            <img src="assets/images/about_me_headshot.png" alt="" class="img__about--me">
           </div>
         </div>
       </section>
@@ -125,12 +116,12 @@
           <div class="flex flex__column flex__row--md flex__start" style=" margin-bottom: 1.5rem;">
             <h2 class="title__secondary--projects"></h2>
             <div class="flex flex__container flex__center cta__project--container">
-              <button class="cta__project" data-type="email"> Email </button>
-              <button class="cta__project cta__project--active" data-type="all"> All </button>
-              <button class="cta__project" data-type="web"> Web </button>
+              <button type="button" class="cta__project" data-type="email"> Email </button>
+              <button type="button" class="cta__project cta__project--active" data-type="all"> All </button>
+              <button type="button" class="cta__project" data-type="web"> Web </button>
             </div>
           </div>
-          <ul class="slider__cards flex__wrap flex__container flex__justify-start">
+          <ul id="projects" class="slider__cards flex__wrap flex__container flex__justify-start">
             <!--Dynamically Generated Project Cards-->
           </ul>
         </div>
@@ -138,7 +129,7 @@
       <section>
         <div class="flex flex__column flex__row--md">
           <div class="flex__grow--half_double flex flex__column flex__center">
-            <div class="skills__container">
+            <div class="skills__container glass3d">
               <h2 class="title__secondary--skills">My Technologies</h2>
               <div class="flex__row--md gap20">
                 <div class="flex flex__around gap20 padB40">
@@ -197,7 +188,7 @@
                 </div>
               </div>
             </div>
-            <div class="skills__container">
+            <div class="skills__container glass3d">
               <h2 class="title__secondary--skills">My Web Tool Kit</h2>
               <div class="flex__row--md gap20">
                 <div class="flex flex__around gap20 padB40">
@@ -255,9 +246,9 @@
               </div>
             </div>
           </div>
-          <div class="form__container flex__grow">
+          <div id="contact" class="form__container flex__grow glass3d">
 
-            <form action="" class="go-bottom">
+            <form action="#" class="go-bottom">
               <h2 class="form__container--title">Facing a Coding Challenge</h2>
             <p class="form__container--subtitle">
               Let's tackle it!
@@ -283,30 +274,12 @@
         </div>
       </section>
     </main>
-    <nav aria-labelledby="nav-label-main" class="grid_nav nav__container--mobile hide">
-      <span id="nav-label-main" class="sr-only">Mobile Site</span>
-      <div class="container">
-        <ul class="flex flex__between nav__list--container">
-          <li class="nav__item">
-            <svg style="display: block; margin: 0 auto" width="48" height="48" aria-hidden="true">
-              <use xlink:href="./assets/images/bj-icon-map.svg#portfolio"></use>
-            </svg><a href="#" class="nav__link">portfolio</a>
-          </li>
-          <li class="nav__item">
-            <svg style="display: block; margin: 0 auto" width="48" height="48" aria-hidden="true">
-              <use xlink:href="./assets/images/bj-icon-map.svg#home"></use>
-            </svg>
-            <a href="#" class="nav__link">home</a>
-          </li>
-          <li class="nav__item">
-            <svg style="display: block; margin: 0 auto" width="48" height="48" aria-hidden="true">
-              <use xlink:href="./assets/images/bj-icon-map.svg#contact"></use>
-            </svg>
-            <a href="#" class="nav__link">choose me</a>
-          </li>
-        </ul>
+    <footer class="grid_footer">
+      <div>
+        <p class="footer__text">© 2025 Brian Johnson</p>
+        <p class="footer__text">All rights reserved.</p>
       </div>
-    </nav>
+    </footer>
   </div>
   <script type="module" src="js/main.js"></script>
 </body>

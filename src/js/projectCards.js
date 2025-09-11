@@ -44,23 +44,35 @@ const projectCardClickHandler = (e) => {
  * An object containing the data for the card, with keys image, title, liveLink, copy, and gitLink.
  * @returns {string} The HTML for the card component.
  */
-function createCard({ image, title, liveLink, copy, gitLink }) {
+
+function createCard({ image, title, liveLink, techTools, copy, gitLink }) {
   return `
-    <li>
-      <div class="card dm_bg_dark_purple">
-        <div class="card__img--container">
-          <img class="card__img" src="${image}" height="auto" alt="card image">
-        </div>
-        <div class="card__body">
-          <h3>${title}</h3>
-          <a href="${liveLink}" class="card__live-link">Live View</a>
-          <p class="card__content">${copy}</p>
-          <a href="${gitLink}" class="card__button">
-            <svg class="card__icon" style="width: 1.25rem; height: 1.25rem" viewBox="0 0 16 16" aria-hidden="true">
+   <li class="card">
+        <div class="card-content glass3d">
+            <div class="card-image">
+                <div class="card-image-container">
+                    <img src="${image}" alt="Profile Image">
+                </div>
+                <div class="card-glow"></div>
+            </div>
+            <div class="card-info">
+                <h2 class="card-name">${title}</h2>
+                <p class="card-title">Tools: ${techTools}</p>
+                <p class="card-bio">${copy}</p>
+                <div class="card-actions">
+                  <a href="${liveLink}" class="action-button primary">
+                        <span>Live Link</span>
+
+                    </a>
+                  <a href="${gitLink}" class="action-button secondary">
+                        <span>View Code</span>
+                        <svg class="card__icon" style="width: 1.25rem; height: 1.25rem" viewBox="0 0 16 16" aria-hidden="true">
               <use xlink:href="./assets/images/bj-icon-map.svg#github-white"></use>
-            </svg> View Code</a>
-          </div>
-      </div>
+            </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
     </li>
   `;
 }
