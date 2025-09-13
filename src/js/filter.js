@@ -1,4 +1,4 @@
-import cardsData from './data.js';
+import cardsData from '../../dist/js/data.js';
 
 function filterCards(type = 'all') {
   if (type === 'all') {
