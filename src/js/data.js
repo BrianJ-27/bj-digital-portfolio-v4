@@ -1,20 +1,21 @@
-import discoverPic from '../assets/images/web-discover-project-pic.jpg'
-import tvsAdpPic from '../assets/images/email-tvs-transactional-ODP-Reminder-project-pics.jpg'
-import macysRegPic from '../assets/images/web-macys-quick-reg-form-project-pic.jpg'
-import gerberLn4998Pic from '../assets/images/email-gerber-promo-green-ln-4998-project-pics.jpg'
-import dssFrameworkPic from '../assets/images/web-DSS-framework-project-pic.jpg'
-import attBarbiePic from '../assets/images/email-ATT-Movies-Newsletter-Barbie-project-pics.jpg'
-import xumoSurveyPic from '../assets/images/web-xumoTV-custom-checkbox-form-project-pic.jpg'
-import gerberGrowthPic from '../assets/images/email-gerber-promo-growth-chart-project-pics.jpg'
-import kobPreferencePic from '../assets/images/web-rakuten-kobo-preference-ctr-project-pic.jpg'
-import tvsNewsletterPic from '../assets/images/email-tvs-newsletter-project-pics.jpg'
-import xfinityAwardsPic from '../assets/images/web-awards-xfinity-project-pic.jpg'
-import macysGiftFinderPic from '../assets/images/email-macys-gift-finder-project-pics.jpg'
+const discoverPic = new URL('./../assets/images/web-discover-project-pic.jpg', import.meta.url);
+const tvsAdpPic = new URL('../assets/images/email-tvs-transactional-ODP-Reminder-project-pics.jpg', import.meta.url);
+const macysRegPic = new URL('../assets/images/web-macys-quick-reg-form-project-pic.jpg', import.meta.url);
+const gerberLn4998Pic = new URL('../assets/images/email-gerber-promo-green-ln-4998-project-pics.jpg', import.meta.url);
+const dssFrameworkPic = new URL('../assets/images/web-DSS-framework-project-pic.jpg', import.meta.url);
+const attBarbiePic = new URL('../assets/images/email-ATT-Movies-Newsletter-Barbie-project-pics.jpg', import.meta.url);
+const xumoSurveyPic = new URL('../assets/images/web-xumoTV-custom-checkbox-form-project-pic.jpg', import.meta.url);
+const gerberGrowthPic = new URL('../assets/images/email-gerber-promo-growth-chart-project-pics.jpg', import.meta.url);
+const kobPreferencePic = new URL('../assets/images/web-rakuten-kobo-preference-ctr-project-pic.jpg', import.meta.url);
+const tvsNewsletterPic = new URL('../assets/images/email-tvs-newsletter-project-pics.jpg', import.meta.url);
+const xfinityAwardsPic = new URL('../assets/images/web-awards-xfinity-project-pic.jpg', import.meta.url);
+const macysGiftFinderPic = new URL('../assets/images/email-macys-gift-finder-project-pics.jpg', import.meta.url);
 
 const cardsData = [
   {
     id: 1,
     image: discoverPic,
+    altText: 'Discover Web Form',
     title: 'Discover Web Form',
     techTools: 'HTML, CSS, JavaScript',
     liveLink: "https://discover-web-form.netlify.app/",
@@ -25,6 +26,7 @@ const cardsData = [
   {
     id: 2,
     image: tvsAdpPic,
+    altText: 'TVS ADP Reminder Transactional Email',
     title: 'TVS ADP Reminder',
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/checklist/emails/public/AKfYAuNQTtv9505r",
@@ -35,6 +37,7 @@ const cardsData = [
   {
     id: 3,
     image: macysRegPic,
+    altText: 'Macys Quick Reg Form',
     title: 'Macys Quick Reg Form',
     techTools: 'HTML, CSS, JavaScript',
     liveLink: "https://test-quick-reg-form-header-footer.netlify.app/",
@@ -45,6 +48,7 @@ const cardsData = [
   {
     id: 4,
     image: gerberLn4998Pic,
+    altText: 'Gerber Green Promo Email',
     title: 'Gerber Promo Email',
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/pub/KhKujKVALMUafHTg",
@@ -55,6 +59,7 @@ const cardsData = [
   {
     id: 5,
     image: dssFrameworkPic,
+    altText: 'DSS SVG Framework Module',
     title: 'Interactive SVG Module',
     techTools: 'HTML, CSS, JavaScript',
     liveLink: "https://dss-svg-framework.netlify.app/",
@@ -65,6 +70,7 @@ const cardsData = [
   {
     id: 6,
     image: attBarbiePic,
+    altText: 'ATT themed Barbie Movies Newsletter',
     title: 'ATT Movies Newsletter',
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/pub/yay9asaqNhSn4QZ9",
@@ -75,6 +81,7 @@ const cardsData = [
   {
     id: 7,
     image: xumoSurveyPic,
+    altText: 'Xumo TV Custom Checkbox Form',
     title: 'Xumo TV Custom Checkbox Form',
     techTools: 'HTML, CSS, JavaScript',
     liveLink: "https://xumo-web-survey-form.netlify.app",
@@ -85,6 +92,7 @@ const cardsData = [
   {
     id: 8,
     image: gerberGrowthPic,
+    altText: 'Gerber Growth Chart Promo Email',
     title: 'Gerber Promo Email',
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/pub/KhKujKVALMUafHTg",
@@ -95,6 +103,7 @@ const cardsData = [
   {
     id: 9,
     image: kobPreferencePic,
+    altText: 'Rakuten Kobo Preference Center',
     title: 'Rakuten Kobo Preference Center',
     techTools: 'HTML, CSS, JavaScript',
     liveLink: "https://kob-preference-center-form.netlify.app/",
@@ -105,6 +114,7 @@ const cardsData = [
   {
     id: 10,
     image: tvsNewsletterPic,
+    altText: 'TVS Newsletter Email',
     title: 'TVS Newsletter',
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/pub/7BXk0ceOiaY7RMCx",
@@ -115,6 +125,7 @@ const cardsData = [
   {
     id: 11,
     image: xfinityAwardsPic,
+    altText: 'Xfinity Awards Landing Page',
     title: 'Xfinity Awards Landing Page',
     techTools: 'HTML, CSS, jQuery',
     liveLink: "https://awards-page-xfinity-mobile.netlify.app/",
@@ -125,7 +136,8 @@ const cardsData = [
   {
     id: 12,
     image: macysGiftFinderPic,
-    title: 'Macy\'s Gift Finder Modules',
+    altText: "Macy's Gift Finder Modules",
+    title: "Macy's Gift Finder Modules",
     techTools: 'HTML, CSS, litmus',
     liveLink: "https://litmus.com/pub/l1qogre8tLbhGGW2",
     copy: 'Created responsive gift finder cards with side-by-side background images and text overlays, dark mode support, and VML for consistent email client rendering.',

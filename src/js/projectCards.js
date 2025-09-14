@@ -1,4 +1,4 @@
-import cardsData from '../../src/js/data.js';
+import cardsData from './data.js'
 import filterCards from './filter.js';
 
 const projectTitle = document.querySelector('.title__secondary--projects');
@@ -45,13 +45,15 @@ const projectCardClickHandler = (e) => {
  * @returns {string} The HTML for the card component.
  */
 
-function createCard({ image, title, liveLink, techTools, copy, gitLink }) {
+function createCard({ image, altText, title, liveLink, techTools, copy, gitLink }) {
   return `
    <li class="card">
         <div class="card-content glass3d">
             <div class="card-image">
                 <div class="card-image-container">
-                    <img src="${image}" alt="Profile Image">
+                <a href="${liveLink}" target="_blank" rel="noopener noreferrer">
+                    <img src="${image}" alt="${altText}">
+                </a>
                 </div>
                 <div class="card-glow"></div>
             </div>
@@ -66,9 +68,6 @@ function createCard({ image, title, liveLink, techTools, copy, gitLink }) {
                     </a>
                   <a href="${gitLink}" class="action-button secondary">
                         <span>View Code</span>
-                        <svg class="card__icon" style="width: 1.25rem; height: 1.25rem" viewBox="0 0 16 16" aria-hidden="true">
-              <use xlink:href="./assets/images/bj-icon-map.svg#github-white"></use>
-            </svg>
                     </a>
                 </div>
             </div>

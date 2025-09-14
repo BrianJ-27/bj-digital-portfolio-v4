@@ -1,0 +1,23 @@
+{
+  "extends": ["html-validate:recommended"],
+  "rules": {
+    "doctype-html": "off",
+    "no-inline-style": "off",
+    "no-deprecated-element": "off",
+    "no-deprecated-attr": "off",
+    "no-conditional-comment": "off",
+    "prefer-tbody": "off",
+    "aria-label-misuse": "off",
+    "prefer-native-element": "off",
+    "void-style": "off",
+    "html-validate/valid-scope": "off",
+    "no-redundant-for": "off",
+    "wcag/h63": "off",
+    "form-dup-name": "off",
+    "tel-non-breaking": "off",
+    "deprecated": "off",
+    "element-permitted-content": "off",
+    "empty-heading": "off",
+    "no-autoplay": "off"
+  }
+}
