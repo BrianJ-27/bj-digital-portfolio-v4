@@ -1,3 +1,51 @@
+// // **************************************
+// // MIXINS
+// // **************************************
+
+// /*
+// Important reminders:
+// 1) using the "Null" keyword allows us to pass optional parameters to our mixins without bloating our code
+// 2) using the "Null" keyword also means we don't have to worry about the order of our parameters.
+// 3) mixins work best
+// */
+
+// //@use "./globals" as *;
+// @use "./breakpoints" as *;
+
+// // Text properties
+// @mixin text-prop($size, $l-height: null, $f-weight: null, $color: null) {
+//   font-size: $size;
+//   line-height: $l-height;
+//   font-weight: $f-weight;
+//   color: $color;
+// }
+
+// //Create a flex container
+// @mixin flex_me($dir: null, $wrap: null, $just: null, $vertAlign: null) {
+//   display: flex;
+//   flex-direction: $dir;
+//   align-items: $vertAlign;
+//   justify-content: $just;
+// }
+
+// @use 'sass:map';
+
+// // Media Query
+// @mixin mq($break) {
+//   $value: map.get($breakpoints, $break);
+//   $sm: map.get($breakpoints, "sm");
+
+//   @if $value < $sm {
+//     @media (max-width: $value) {
+//       @content;
+//     }
+//   } @else {
+//     @media (min-width: $value) {
+//       @content;
+//     }
+//   }
+// }
+
 // **************************************
 // MIXINS
 // **************************************
@@ -9,8 +57,8 @@ Important reminders:
 3) mixins work best
 */
 
-//@use "./globals" as *;
 @use "./breakpoints" as *;
+@use "sass:map";
 
 // Text properties
 @mixin text-prop($size, $l-height: null, $f-weight: null, $color: null) {
@@ -30,8 +78,8 @@ Important reminders:
 
 // Media Query
 @mixin mq($break) {
-  $value: map-get($breakpoints, $break);
-  $sm: map-get($breakpoints, "sm");
+  $value: map.get($breakpoints, $break);
+  $sm: map.get($breakpoints, "sm");
 
   @if $value < $sm {
     @media (max-width: $value) {

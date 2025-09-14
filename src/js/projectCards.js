@@ -1,4 +1,4 @@
-import cardsData from '../../dist/js/data.js';
+import cardsData from '../../src/js/data.js';
 import filterCards from './filter.js';
 
 const projectTitle = document.querySelector('.title__secondary--projects');
