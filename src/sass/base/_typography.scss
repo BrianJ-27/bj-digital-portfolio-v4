@@ -14,7 +14,7 @@
   @extend %text-modules;
   margin-top: px-to-rems(50px);
   @include text-prop(
-    $size: clamp(px-to-rems(40px), 12vw, 5rem),
+    $size: clamp(px-to-rems(35px), 10.5vw, 5rem),
     $f-weight: 400,
     $l-height: 1.2,
     $color: var(--clr-text-light)
