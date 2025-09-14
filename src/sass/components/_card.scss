@@ -186,6 +186,7 @@ ul.card-container {
             display: none;
         }
     }
+      pointer-events: none;
 }
 
 .card-name {
@@ -225,6 +226,7 @@ ul.card-container {
     @include mq('md') {
        flex-direction: column;
     }
+ pointer-events: auto;
 }
 
 .action-button {
