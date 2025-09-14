@@ -9,8 +9,14 @@
   text-wrap: balance;
 }
 
+:is(div, p, span, a, li, label, button) {
+  font-family: var(--fp-font-secondary);
+  text-wrap: balance;
+}
+
 // h1 styles
 .title__primary {
+  font-family: var(--fp-font-main);
   @extend %text-modules;
   margin-top: px-to-rems(50px);
   @include text-prop(
