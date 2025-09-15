@@ -158,6 +158,7 @@
     width: 100%;
     @include mq ('md') {
       display: flex;
+      align-items: center;
     }
 }
 

@@ -685,8 +685,15 @@ video {
 
 .site_container {
   max-width: 1300px;
+  margin-block-start: -5px;
   margin-inline: auto;
   transform: translateY(-25px);
+}
+
+@media (width >= 768px) {
+  .site_container {
+    margin-block-start: unset;
+  }
 }
 
 .grid_header {
@@ -775,6 +782,7 @@ video {
 
 @media (width >= 768px) {
   .header__nav--wrapper {
+    align-items: center;
     display: flex;
   }
 }
@@ -1426,6 +1434,10 @@ ul.card-container {
     border-left: solid;
     border-right: solid;
   }
+}
+
+.skills__container:first-child {
+  margin-block-end: 30px;
 }
 
 .skills__container:last-child {

@@ -119,6 +119,10 @@
    max-width: 1300px;
    margin-inline: auto;
    transform: translateY(-25px);
+   margin-block-start: -5px;
+   @include mq('md') {
+    margin-block-start: unset;
+   }
 }
 
 .grid_header {
