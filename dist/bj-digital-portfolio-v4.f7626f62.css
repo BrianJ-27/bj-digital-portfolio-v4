@@ -429,7 +429,7 @@ video {
 
 :is(div, p, span, a, li, label, button) {
   font-family: var(--fp-font-secondary);
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 .title__primary {
