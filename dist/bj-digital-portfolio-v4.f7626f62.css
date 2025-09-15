@@ -738,12 +738,6 @@ video {
   overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  .about__me {
-    border: 2px solid var(--clr-bg-blanco);
-  }
-}
-
 .about__me div:first-of-type {
   padding-inline: 25px;
 }
@@ -1426,31 +1420,12 @@ ul.card-container {
 .skills__container:first-child {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .skills__container:first-child {
-    border-top: solid;
-    border-left: solid;
-    border-right: solid;
-  }
-}
-
-.skills__container:first-child {
   margin-block-end: 30px;
 }
 
 .skills__container:last-child {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .skills__container:last-child {
-    border-bottom: solid;
-    border-left: solid;
-    border-right: solid;
-  }
 }
 
 @media (width >= 768px) {
@@ -1475,12 +1450,6 @@ ul.card-container {
   .skills__container {
     margin-left: 60px;
     padding: 45px;
-  }
-}
-
-@media (width >= 1024px) and (prefers-color-scheme: dark) {
-  .skills__container {
-    border: 2px solid var(--clr-bg-blanco);
   }
 }
 

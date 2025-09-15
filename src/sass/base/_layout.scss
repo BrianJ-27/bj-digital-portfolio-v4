@@ -158,9 +158,6 @@
   padding-top: px-to-rems(20px);
   border-radius: 20px;
   overflow: hidden;
-  @media (prefers-color-scheme: dark) {
-    border: 2px solid var(--clr-bg-blanco);
-  }
 
   div:nth-of-type(1) {
    padding-inline: px-to-rems(25px);

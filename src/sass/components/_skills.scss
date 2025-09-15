@@ -10,21 +10,11 @@
   &:first-child {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    @media (prefers-color-scheme: dark) {
-        border-top: solid;
-        border-left: solid;
-        border-right: solid;
-    }
     margin-block-end: px-to-rems(30px);
   }
   &:last-child {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    @media (prefers-color-scheme: dark) {
-      border-bottom: solid;
-      border-left: solid;
-      border-right: solid;
-  }
   }
   @include mq("md") {
     margin-left: px-to-rems(50px);
@@ -42,9 +32,6 @@
   @include mq("lg") {
     margin-left: px-to-rems(60px);
     padding: px-to-rems(45px);
-      @media (prefers-color-scheme: dark) {
-    border: 2px solid var(--clr-bg-blanco);
-  }
   }
 }
 
