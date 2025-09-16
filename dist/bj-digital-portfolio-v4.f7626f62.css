@@ -435,7 +435,7 @@ video {
 .title__primary {
   font-family: var(--fp-font-main);
   color: var(--clr-text-light);
-  margin-top: 50px;
+  margin-block: 50px 16px;
   font-size: clamp(35px, 10.5vw, 5rem);
   font-weight: 400;
   line-height: 1.2;

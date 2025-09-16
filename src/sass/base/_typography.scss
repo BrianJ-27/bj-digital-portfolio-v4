@@ -18,7 +18,7 @@
 .title__primary {
   font-family: var(--fp-font-main);
   @extend %text-modules;
-  margin-top: px-to-rems(50px);
+  margin-block: px-to-rems(50px) px-to-rems(16px);
   @include text-prop(
     $size: clamp(px-to-rems(35px), 10.5vw, 5rem),
     $f-weight: 400,
