@@ -88,6 +88,7 @@ ul.card-container {
     min-width: 260px;
     position: relative;
     cursor: pointer;
+    scroll-snap-align: center;
     @include mq('md') {
       min-width: 500px;
     }

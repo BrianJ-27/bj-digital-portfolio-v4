@@ -905,9 +905,21 @@ video {
   }
 }
 
+@media (width >= 440px) {
+  .hamburger__menu {
+    left: 15.5rem;
+  }
+}
+
 @media (width >= 540px) {
   .hamburger__menu {
     left: 20.4375rem;
+  }
+}
+
+@media (width >= 700px) {
+  .hamburger__menu {
+    left: 30.4375rem;
   }
 }
 
@@ -970,6 +982,7 @@ ul.card-container {
 .card {
   perspective: 1000px;
   cursor: pointer;
+  scroll-snap-align: center;
   min-width: 260px;
   position: relative;
 }
@@ -1281,6 +1294,17 @@ ul.card-container {
   max-width: 320px;
 }
 
+.slider-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 0 20px;
+  overflow-x: auto;
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .slider__container {
   margin-block: 3.125rem 4.375rem;
   position: relative;
@@ -1289,13 +1313,10 @@ ul.card-container {
 .slider__cards {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   flex-wrap: nowrap;
   justify-content: flex-start;
   gap: 20px;
   display: flex;
-  overflow-x: auto;
 }
 
 @media (width >= 768px) {

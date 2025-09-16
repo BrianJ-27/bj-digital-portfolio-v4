@@ -7,7 +7,17 @@
 
 .slider__header {
   max-width: 320px;
+}
 
+.slider-wrapper {
+  overflow-x: auto;
+  padding: 0 20px;
+  -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Webkit browsers */
 }
 
 .slider__container {
@@ -38,11 +48,8 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
   gap: 20px;
-  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  -ms-overflow-style: none; /* For Internet Explorer/Edge */
-  scrollbar-width: none; /* For Firefox */
   @include mq('md') {
     gap: 30px;
   }

@@ -271,9 +271,18 @@
 @media (min-width: 411px) {
   .hamburger__menu { left: 13.4375rem; } /* 215px */
 }
+/* 440px breakpoint */
+@media (min-width: 440px) {
+  .hamburger__menu { left: 15.5rem; } /* 248px */
+}
+
 /* 540px breakpoint */
 @media (min-width: 540px) {
   .hamburger__menu { left: 20.4375rem; } /* 215px */
+}
+/* 700px breakpoint */
+@media (min-width: 700px) {
+  .hamburger__menu { left: 30.4375rem; } /* 487px */
 }
 
 /* 768px and up */
