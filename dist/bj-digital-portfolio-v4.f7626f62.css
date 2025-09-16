@@ -1291,18 +1291,21 @@ ul.card-container {
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  justify-content: center;
-  gap: 30px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 20px;
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 @media (width >= 768px) {
   .slider__cards {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    padding: 20px;
+    gap: 30px;
   }
+}
+
+.slider__cards::-webkit-scrollbar {
+  display: none;
 }
 
 .banner__container {
