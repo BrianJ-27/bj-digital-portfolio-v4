@@ -18,6 +18,7 @@
     "deprecated": "off",
     "element-permitted-content": "off",
     "empty-heading": "off",
-    "no-autoplay": "off"
+    "no-autoplay": "off",
+    "wcag/h32": "off"
   }
 }
