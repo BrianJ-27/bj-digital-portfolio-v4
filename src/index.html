@@ -13,13 +13,25 @@
 <link rel="stylesheet" href="./sass/main.scss">
   <link rel="icon" href="./assets/images/apple-touch-icon.png" type="image/x-icon">
   <title>Brian's Web Portfolio</title>
+  <style>
+    .video-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the last number (0.3) to make it darker or lighter */
+  z-index: 1;
+}
+  </style>
 </head>
 
 <body>
   <div class="video-container">
-    <video autoplay="" muted playsinline loop id="myVideo">
-  <source src="./assets/images/3163534-ios.mp4" type="video/mp4">   <!-- iOS Safari -->
-  <source src="./assets/images/3163534-android.webm" type="video/webm">     <!-- Chrome/Android -->
+    <video class="video-background" autoplay="" muted playsinline loop id="myVideo" poster="./assets/images/poster-video-bg-img.webp">
+  <source src="./assets/images/galaxy-background-ios.mp4" type="video/mp4">   <!-- iOS Safari -->
+  <source src="./assets/images/glaxy-background-webM-android.webm" type="video/webm">     <!-- Chrome/Android -->
 </video>
 
   </div>

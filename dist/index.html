@@ -10,13 +10,24 @@
 <link rel="stylesheet" href="/bj-digital-portfolio-v4.f7626f62.css">
   <link rel="icon" href="/apple-touch-icon.b92ae7b1.png" type="image/x-icon">
   <title>Brian's Web Portfolio</title>
+  <style>.video-container:after {
+  content: "";
+  z-index: 1;
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+</style>
 </head>
 
 <body>
   <div class="video-container">
-    <video autoplay="" muted="" playsinline="" loop="" id="myVideo">
-  <source src="/3163534-ios.571b60fb.mp4" type="video/mp4">   <!-- iOS Safari -->
-  <source src="/3163534-android.b2edf2ae.webm" type="video/webm">     <!-- Chrome/Android -->
+    <video class="video-background" autoplay="" muted="" playsinline="" loop="" id="myVideo" poster="/poster-video-bg-img.50b2d751.webp">
+  <source src="/galaxy-background-ios.241b443c.mp4" type="video/mp4">   <!-- iOS Safari -->
+  <source src="/glaxy-background-webM-android.ab19d4d3.webm" type="video/webm">     <!-- Chrome/Android -->
 </video>
 
   </div>
