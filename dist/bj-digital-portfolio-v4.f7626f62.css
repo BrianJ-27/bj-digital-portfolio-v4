@@ -699,7 +699,6 @@ video {
 .grid_header {
   z-index: 1000;
   grid-area: grid-header;
-  margin: 10px auto;
   position: sticky;
   top: 0;
 }
@@ -707,6 +706,7 @@ video {
 @media (width >= 768px) {
   .grid_header {
     width: 100%;
+    margin: 10px auto;
   }
 }
 
@@ -787,7 +787,8 @@ video {
 
 .nav__bar {
   z-index: 50;
-  background-color: var(--clr-bg-stone);
+  background-color: var(--clr-bg-main);
+  opacity: .96;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 180px;
@@ -810,7 +811,7 @@ video {
 }
 
 .show__nav {
-  margin-top: 90px;
+  margin-top: 88px;
   transition: margin-top .5s ease-out;
 }
 
@@ -868,7 +869,7 @@ video {
 }
 
 .nav__link {
-  color: var(--clr-primary-color);
+  color: var(--clr-accent-color);
 }
 
 .hamburger__menu {
@@ -1354,18 +1355,18 @@ ul.card-container {
   padding: 2rem 0 4rem;
 }
 
-.banner__icons {
+a.banner__icons svg {
   width: clamp(30px, 8.5vw, 60px);
   height: clamp(30px, 8.5vw, 60px);
 }
 
 @media (width >= 768px) {
-  .banner__icons {
+  a.banner__icons svg {
     width: clamp(40px, 5.2vw, 50px);
   }
 }
 
-.banner__icons:nth-of-type(2) {
+a.banner__icons:nth-of-type(2) {
   margin-inline: .75rem;
 }
 

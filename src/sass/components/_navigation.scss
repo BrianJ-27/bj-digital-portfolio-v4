@@ -175,7 +175,8 @@
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     transition: margin-top .7s ease-in;
-    background-color: var(--clr-bg-stone);
+    background-color: var(--clr-bg-main);
+    opacity: .96;
     @include mq ('md'){
         width: 200px;
     }
@@ -186,7 +187,7 @@
 
 
  .show__nav{
-    margin-top: 90px;
+    margin-top: 88px;
     transition: margin-top .5s ease-out;
     @include mq('lg'){
         display: none;
@@ -243,7 +244,7 @@
 }
 
 .nav__link {
-  color: var(--clr-primary-color);
+  color: var(--clr-accent-color);
 }
 
 .hamburger__menu {

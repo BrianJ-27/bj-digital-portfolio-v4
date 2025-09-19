@@ -26,14 +26,14 @@
   padding: 2rem 0 4rem;
 }
 
-.banner__icons {
+a.banner__icons svg {
   width: clamp(px-to-rems(30px), 8.5vw, px-to-rems(60px)) ;
   height: clamp(px-to-rems(30px), 8.5vw, px-to-rems(60px));
   @include mq("md") {
     width: clamp(px-to-rems(40px), 5.2vw, px-to-rems(50px)) ;
   }
 }
-.banner__icons:nth-of-type(2) {
+a.banner__icons:nth-of-type(2) {
   margin-inline: .75rem
 }
 

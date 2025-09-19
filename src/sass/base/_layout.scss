@@ -127,12 +127,13 @@
 
 .grid_header {
   grid-area: grid-header;
-  margin: 10px auto;
+
    position: sticky;
   top: 0;
   z-index: 1000;
   @include mq('md') {
     width: 100%;
+    margin: 10px auto;
   }
 }
 
