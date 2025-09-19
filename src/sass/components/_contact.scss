@@ -34,7 +34,7 @@ form {
 
   &--subtitle {
     @include text-prop(
-      $size: clamp(px-to-rems(36px), 5vw, px-to-rems(40px)) ,
+      $size: clamp(px-to-rems(36px), 5vw, px-to-rems(40px)),
       $f-weight: 700,
       $l-height: 1.2,
       $color: var(--clr-accent-color)
@@ -57,12 +57,12 @@ form {
       $f-weight: 700,
       $color: var(--clr-text-dark)
     );
-    @include mq ("md") {
+    @include mq("md") {
       width: 85%;
       align-self: flex-end;
       padding-block: px-to-rems(20px);
     }
-    @include mq ("lg") {
+    @include mq("lg") {
       width: 60%;
       max-width: 60%;
     }
@@ -70,7 +70,7 @@ form {
       background-color: transparent;
       color: var(--clr-text-light);
       border: 4px solid var(--clr-text-light);
-      transition: background-color .3s ease-in-out, color .3s ease-in-out;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
       &:hover {
         background-color: var(--clr-accent-color);
         color: var(--clr-primary-color);
@@ -79,41 +79,76 @@ form {
   }
 }
 
+// --- Validation Styles Start ---
+
+// Hide error messages by default
+.error-message {
+  display: none;
+  position: absolute;
+  bottom: 1.5rem; // Position it below the input's bottom border
+  left: 0;
+  font-size: px-to-rems(14px);
+  color: #e74c3c; // A standard error red
+}
+
+// Style for invalid inputs and textareas that have been interacted with
+.input__field input:invalid:not(:placeholder-shown),
+.textarea__field textarea:invalid:not(:placeholder-shown) {
+  border-color: #e74c3c; // Change border to red
+}
+
+// Show the error message when the sibling input/textarea is invalid
+.input__field input:invalid:not(:placeholder-shown) ~ .error-message,
+.textarea__field textarea:invalid:not(:placeholder-shown) ~ .error-message {
+  display: block;
+}
+
+// --- Validation Styles End ---
+
 .input__field,
 .textarea__field {
   position: relative;
 }
 
 .input__field input {
-height: px-to-rems(60px);
-width: 100%;
-font-size: px-to-rems(18px);
-padding-inline: px-to-rems(5px);
-border: none;
-border-bottom: 4px solid var(--clr-bg-blanco);
-outline: none;
-background-color: transparent;
-margin-bottom: 3rem;
-color: var(--clr-text-light);
-&:focus {
-  border-color: var(--clr-accent-color);
-}
+  height: px-to-rems(60px);
+  width: 100%;
+  font-size: px-to-rems(18px);
+  padding-inline: px-to-rems(5px);
+  border: none;
+  border-bottom: 4px solid var(--clr-bg-blanco);
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 3rem;
+  color: var(--clr-text-light);
+  &:focus {
+    border-color: var(--clr-accent-color);
+  }
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
-input:-webkit-autofill:active{
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--clr-text-light) !important;
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--clr-text-light) !important;
 }
 
+// --- CORRECTED FLOATING LABEL LOGIC ---
+
+// 1. Float the label when the input is focused OR when it contains text
 input:focus ~ label,
-input:valid ~ label{
+input:not(:placeholder-shown) ~ label {
   top: px-to-rems(-10px);
   font-size: px-to-rems(16px);
   color: var(--clr-accent-color);
 }
+
+// 2. Override the label color to red if the input is invalid
+input:invalid:not(:placeholder-shown) ~ label {
+  color: #e74c3c;
+}
+
 
 .input__field label {
   position: absolute;
@@ -126,8 +161,6 @@ input:valid ~ label{
   transition: all 0.3s ease;
 }
 
-
-
 .textarea__field textarea {
   height: px-to-rems(120px);
   width: 100%;
@@ -135,6 +168,7 @@ input:valid ~ label{
   border: 4px solid var(--clr-bg-blanco);
   color: var(--clr-text-light);
   border-radius: 10px;
+  padding: 10px 0 0 10px;
 }
 
 .textarea__field label {
@@ -150,16 +184,19 @@ input:valid ~ label{
   border: none;
 }
 
-textarea:focus ~ label {
+
+// 1. Float the label when the textarea is focused OR when it contains text
+textarea:focus ~ label,
+textarea:not(:placeholder-shown) ~ label {
   top: px-to-rems(-16px);
   left: px-to-rems(6px);
   font-size: px-to-rems(16px);
   color: var(--clr-accent-color);
+  background-color: #291c3a; // Add a background to cover the border
+  padding-inline: 4px; // Add padding so the text doesn't touch the border
 }
 
-
-
-
-
-
-
+// 2. Override the label color to red if the textarea is invalid
+textarea:invalid:not(:placeholder-shown) ~ label {
+    color: #e74c3c;
+}

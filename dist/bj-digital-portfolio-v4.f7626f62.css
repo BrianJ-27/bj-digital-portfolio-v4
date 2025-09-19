@@ -1569,6 +1569,23 @@ a.banner__icons:nth-of-type(2) {
   }
 }
 
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+}
+
+.input__field input:invalid:not(:placeholder-shown), .textarea__field textarea:invalid:not(:placeholder-shown) {
+  border-color: #e74c3c;
+}
+
+.input__field input:invalid:not(:placeholder-shown) ~ .error-message, .textarea__field textarea:invalid:not(:placeholder-shown) ~ .error-message {
+  display: block;
+}
+
 .input__field, .textarea__field {
   position: relative;
 }
@@ -1610,10 +1627,14 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: var(--clr-text-light) !important;
 }
 
-input:focus ~ label, input:valid ~ label {
+input:focus ~ label, input:not(:placeholder-shown) ~ label {
   color: var(--clr-accent-color);
   font-size: 16px;
   top: -10px;
+}
+
+input:invalid:not(:placeholder-shown) ~ label {
+  color: #e74c3c;
 }
 
 .input__field label {
@@ -1634,6 +1655,7 @@ input:focus ~ label, input:valid ~ label {
   color: var(--clr-text-light);
   background-color: #0000;
   border-radius: 10px;
+  padding: 10px 0 0 10px;
 }
 
 .textarea__field label {
@@ -1649,11 +1671,17 @@ input:focus ~ label, input:valid ~ label {
   transform: translateY(-50%);
 }
 
-textarea:focus ~ label {
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label {
   color: var(--clr-accent-color);
+  background-color: #291c3a;
+  padding-inline: 4px;
   font-size: 16px;
   top: -16px;
   left: 6px;
+}
+
+textarea:invalid:not(:placeholder-shown) ~ label {
+  color: #e74c3c;
 }
 
 .hide--mobile {

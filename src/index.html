@@ -266,19 +266,23 @@
             <p class="form__container--subtitle">
               Let's tackle it!
             </p>
-              <div class="input__field">
-                <input id="name" name="name" type="text" required spellcheck="false">
-                <label for="name">What's your name</label>
-              </div>
-              <div class="input__field">
-                <input id="emailname" name="emailname" type="email" required spellcheck="false">
-                <label for="emailname">Your Email</label>
-              </div>
+             <div class="input__field">
+  <input id="name" name="name" type="text" required spellcheck="false" minlength="2" placeholder=" ">
+  <label for="name">What's your name</label>
+  <p class="error-message">Name must be at least 2 characters.</p>
+</div>
 
-              <div class="textarea__field">
-                <textarea name="message" id="message" required></textarea>
-                <label for="message">What's the issue?</label>
-              </div>
+<div class="input__field">
+  <input id="emailname" name="emailname" type="email" required spellcheck="false" placeholder=" ">
+  <label for="emailname">Your Email</label>
+  <p class="error-message">Please provide a valid email.</p>
+</div>
+
+<div class="textarea__field">
+  <textarea name="message" id="message" required placeholder=" "></textarea>
+  <label for="message">What's the issue?</label>
+  <p class="error-message">This field is required.</p>
+</div>
 
               <button class="form__container--cta" type="submit">Send it My Way</button>
 
