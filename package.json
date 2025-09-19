@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
      "start": "parcel src/index.html --dist-dir dist --open",
-    "build": "rimraf dist && parcel build src/index.html --dist-dir dist",
+   "build": "rimraf .parcel-cache dist && parcel build src/index.html --dist-dir dist",
     "clean": "rimraf dist"
   },
   "keywords": [],
