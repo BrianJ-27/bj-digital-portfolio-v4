@@ -168,20 +168,19 @@
 //nav styles
 .nav__bar{
     z-index: 50;
+    padding-block: 1rem;
     position:fixed;
+    left: 0;
     right: 0;
-    width: 180px;
+    width: 100%;
     margin-top: -1033px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     transition: margin-top .7s ease-in;
     background-color: var(--clr-bg-main);
     opacity: .96;
     @include mq ('md'){
-        width: 200px;
-    }
-    @include mq ('lg'){
-        display: none;
+  display: none;
     }
 }
 
@@ -245,6 +244,8 @@
 
 .nav__link {
   color: var(--clr-accent-color);
+  font-size: 1.25em;
+  font-weight: var(--fp-weight-bold);
 }
 
 .hamburger__menu {

@@ -118,10 +118,11 @@
 .site_container {
    max-width: 1300px;
    margin-inline: auto;
-   transform: translateY(-25px);
+   transform: translateY(-20px);
    margin-block-start: -5px;
    @include mq('md') {
     margin-block-start: unset;
+     transform: translateY(-25px);
    }
 }
 
@@ -141,6 +142,9 @@
   grid-area: grid-banner;
   @include mq('md') {
     margin-top: px-to-rems(-72px);
+  }
+  @include mq('lg') {
+    margin-top: px-to-rems(0);
   }
 }
 
