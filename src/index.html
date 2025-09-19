@@ -261,7 +261,9 @@
           </div>
           <div id="contact" class="form__container flex__grow glass3d">
 
-            <form action="#" class="go-bottom">
+            <form method="POST" data-netlify="true" class="go-bottom">
+               <!-- This hidden input is REQUIRED for Netlify to identify the form -->
+    <input type="hidden" name="form-name" value="contact" />
               <h2 class="form__container--title">Facing a Coding Challenge</h2>
             <p class="form__container--subtitle">
               Let's tackle it!
