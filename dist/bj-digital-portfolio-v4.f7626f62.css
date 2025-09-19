@@ -1655,7 +1655,7 @@ input:invalid:not(:placeholder-shown) ~ label {
   color: var(--clr-text-light);
   background-color: #0000;
   border-radius: 10px;
-  padding: 10px 0 0 10px;
+  padding: 10px;
 }
 
 .textarea__field label {
@@ -1673,11 +1673,10 @@ input:invalid:not(:placeholder-shown) ~ label {
 
 textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label {
   color: var(--clr-accent-color);
-  background-color: #291c3a;
   padding-inline: 4px;
   font-size: 16px;
   top: -16px;
-  left: 6px;
+  left: 0;
 }
 
 textarea:invalid:not(:placeholder-shown) ~ label {
