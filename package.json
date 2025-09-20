@@ -2,7 +2,7 @@
   "name": "my-portfolio-npm",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel src/index.html --dist-dir dist --open",
+    "start": "copyfiles -u 1 static/bj-icon-map.svg dist && parcel src/index.html --dist-dir dist --open",
     "build": "rimraf .parcel-cache dist && parcel build src/index.html --dist-dir dist && copyfiles -u 1 static/bj-icon-map.svg dist",
     "clean": "rimraf dist"
   },
