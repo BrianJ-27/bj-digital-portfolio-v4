@@ -3,7 +3,7 @@
   "version": "1.0.0",
 "scripts": {
   "clean": "rimraf .parcel-cache dist",
-  "start": "parcel src/index.html --static-dir static --open",
+  "start": "rimraf dist && copyfiles -u 1 static/bj-icon-map.svg dist && parcel src/index.html --dist-dir dist --open",
   "build": "npm run clean && parcel build src/index.html --public-url ./ && copyfiles -u 1 static/bj-icon-map.svg dist"
 },
   "keywords": [],

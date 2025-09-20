@@ -14,6 +14,7 @@
   padding: 0 20px;
   -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
   scrollbar-width: none; /* Hides scrollbar in Firefox */
+  min-height: 630px;
 }
 
 .slider-wrapper::-webkit-scrollbar {
@@ -24,24 +25,6 @@
   margin-block: 3.125rem 4.375rem;
   position: relative;
 }
-
-
-// .slider__cards {
-//   display: flex;
-//   justify-content: center;
-//   gap: 30px;
-//   overflow-x: auto;
-//   scroll-snap-type: x mandatory;
-//   scroll-behavior: smooth;
-//   overflow-x: scroll; /* Allows horizontal scrolling */
-//   -ms-overflow-style: none;  /* Internet Explorer 10+ */
-//   scrollbar-width: none;
-//   @include mq('md') {
-//     justify-content: flex-start;
-//     flex-wrap: nowrap;
-//     padding: 20px;
-//   }
-// }
 
 .slider__cards {
   display: flex;

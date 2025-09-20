@@ -122,6 +122,11 @@ ul.card-container {
         0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.card-link {
+    display: block;
+    height: 100%;;
+}
+
 .card-image {
     position: relative;
     overflow: hidden;

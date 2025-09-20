@@ -51,7 +51,7 @@ function createCard({ image, altText, title, liveLink, techTools, copy, gitLink 
         <div class="card-content glass3d">
             <div class="card-image">
                 <div class="card-image-container">
-                <a href="${liveLink}" target="_blank" rel="noopener noreferrer">
+                <a class="card-link" href="${liveLink}" target="_blank" rel="noopener noreferrer">
                     <img src="${image}" alt="${altText}">
                 </a>
                 </div>

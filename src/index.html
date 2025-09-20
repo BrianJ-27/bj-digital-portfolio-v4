@@ -4,109 +4,120 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <meta name="description" content="Explore Brian B. Johnson's digital portfolio showcasing innovative web and email development projects and accessible designs. View it now!">
+  <meta name="description"
+    content="Explore Brian B. Johnson's digital portfolio showcasing innovative web and email development projects and accessible designs. View it now!">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
   <link rel="canonical" href="https://bj-digital-portfolio-v4.netlify.app/">
   <meta name="robots" content="index, follow">
-<link rel="stylesheet" href="./sass/main.scss">
+  <link rel="stylesheet" href="./sass/main.scss">
   <link rel="icon" href="./assets/images/apple-touch-icon.png" type="image/x-icon">
   <title>Brian's Web Portfolio</title>
   <style>
     .video-container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the last number (0.3) to make it darker or lighter */
-  z-index: 1;
-}
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
   </style>
 </head>
 
 <body>
   <div class="video-container">
-    <video class="video-background" autoplay="" muted playsinline loop id="myVideo" poster="./assets/images/poster-video-bg-img.webp">
-  <source src="./assets/images/galaxy-background-ios.mp4" type="video/mp4">   <!-- iOS Safari -->
-  <source src="./assets/images/glaxy-background-webM-android.webm" type="video/webm">     <!-- Chrome/Android -->
-</video>
+    <video class="video-background" autoplay="" muted playsinline loop id="myVideo"
+      poster="./assets/images/poster-video-bg-img.webp">
+      <source src="./assets/images/galaxy-background-ios.mp4" type="video/mp4"> <!-- iOS Safari -->
+      <source src="./assets/images/glaxy-background-webM-android.webm" type="video/webm"> <!-- Chrome/Android -->
+    </video>
 
   </div>
   <div class="main__grid--container body__container">
     <header class="grid_header glass3d">
       <div class="site_container flex flex__v--center">
-      <div class="container">
-        <a href="/" class="header__logo--link-container" aria-label="Home. Brian Johnson Digital Portfolio">
-          <img class="img__header--logo" width="64" height="64" src="./assets/images/BJ_Header_Logo.png" alt="Brian Johnson. Digital Portfolio. Home.">
-        </a>
-      </div>
- <!--hamburger menu hidden in DT shown on Mobile-->
-      <div class="hamburger__menu">
-      <span class="line line1"></span>
-      <span class="line line2"></span>
-      <span class="line line3"></span>
-      </div>
-      <!--main navigation-->
-      <nav aria-label="Main Navigation" class="header__nav--bar">
+        <div class="container">
+          <a href="/" class="header__logo--link-container" aria-label="Home. Brian Johnson Digital Portfolio">
+            <img class="img__header--logo" width="64" height="64" src="./assets/images/BJ_Header_Logo.png"
+              alt="Brian Johnson. Digital Portfolio. Home.">
+          </a>
+        </div>
+        <!--hamburger menu hidden in DT shown on Mobile-->
+        <div class="hamburger__menu">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <!--main navigation-->
+        <nav aria-label="Main Navigation" class="header__nav--bar">
           <ul class="header__nav--wrapper">
-              <li><a class="header--nav__link" href="#home">Home</a></li>
-              <li><a class="header--nav__link" href="#about">The Scoop</a></li>
-              <li><a class="header--nav__link" href="#projects">Portfolio</a></li>
-              <li><a class="header--nav__link" href="#contact">Get in Touch</a></li>
-              <li><a id="resume__desktop" class="header--nav__link" href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
+            <li><a class="header--nav__link" href="#home">Home</a></li>
+            <li><a class="header--nav__link" href="#about">The Scoop</a></li>
+            <li><a class="header--nav__link" href="#projects">Portfolio</a></li>
+            <li><a class="header--nav__link" href="#contact">Get in Touch</a></li>
+            <li><a id="resume__desktop" class="header--nav__link"
+                href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
           </ul>
-      </nav>
-    </div>
+        </nav>
+      </div>
     </header>
-     <nav aria-label="Secondary Mobile Navigation" class="nav__bar">
-        <ul class="nav__wrapper">
-            <li class="nav__item">
-                <a class="nav__link" href="#home">Home</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link nav__icon2" href="#about">The Scoop</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link nav__icon3" href="#projects">Portfolio</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link nav__icon6" href="#contact">Get in Touch</a>
-            </li>
-            <li class="nav__item"><a id="resume__mobile" class="nav__link nav__icon7" href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
-        </ul>
+    <nav aria-label="Secondary Mobile Navigation" class="nav__bar">
+      <ul class="nav__wrapper">
+        <li class="nav__item">
+          <a class="nav__link" href="#home">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__icon2" href="#about">The Scoop</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__icon3" href="#projects">Portfolio</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__icon6" href="#contact">Get in Touch</a>
+        </li>
+        <li class="nav__item"><a id="resume__mobile" class="nav__link nav__icon7"
+            href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf">Resume</a></li>
+      </ul>
     </nav>
-    <div id="home" role="region" aria-label="hero banner" class="grid_banner show--flex flex--grow" style="position: relative;">
+    <div id="home" role="region" aria-label="hero banner" class="grid_banner show--flex flex--grow"
+      style="position: relative;">
       <div class="banner__content flex flex__column flex__center">
         <p class="title__primary">Crafting <br aria-hidden="true"> Unforgettable <br aria-hidden="true"> Experiences</p>
         <p class="subtitle">Email / Web Developer</p>
         <div class="banner__container">
-          <a class="banner__icons" href="https://github.com/BrianJ-27" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile.">
+          <a class="banner__icons" href="https://github.com/BrianJ-27" target="_blank" rel="noopener noreferrer"
+            aria-label="Visit my GitHub profile.">
             <svg aria-hidden="true">
               <use xlink:href="#github"></use>
             </svg>
           </a>
-          <a class="banner__icons" href="https://codepen.io/your-work" target="_blank" rel="noopener noreferrer" aria-label="Visit my CodePen profile.">
+          <a class="banner__icons" href="https://codepen.io/your-work" target="_blank" rel="noopener noreferrer"
+            aria-label="Visit my CodePen profile.">
             <svg aria-hidden="true">
               <use xlink:href="#codepen"></use>
             </svg>
           </a>
-          <a class="banner__icons" href="https://www.linkedin.com/in/brian-johnson-45161688" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile.">
+          <a class="banner__icons" href="https://www.linkedin.com/in/brian-johnson-45161688" target="_blank"
+            rel="noopener noreferrer" aria-label="Visit my LinkedIn profile.">
             <svg aria-hidden="true">
               <use xlink:href="#linkedin"></use>
             </svg>
           </a>
           <div class="banner__cta--container hide">
-            <a href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf" class="action-button primary cta__container--text">View My Resume</a>
+            <a href="./assets/images/REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf"
+              class="action-button primary cta__container--text">View My Resume</a>
           </div>
         </div>
       </div>
     </div>
     <main class="grid_main">
       <h1 class="sr-only">Brian's Online Web Portfolio</h1>
-      <div role="region" aria-label="accomplishments" class="hide--mobile show--flex flex__between banner__stats glass3d">
+      <div role="region" aria-label="accomplishments"
+        class="hide--mobile show--flex flex__between banner__stats glass3d">
         <div class="flex flex__v--center gap20">
           <p class="content--stats content--large">7</p>
           <p class="content--stats">Years of<br aria-hidden="true"> Experience</p>
@@ -124,7 +135,10 @@
         <div class="flex flex__column flex__row--md about__me glass3d">
           <div class="flex__grow--double about__me--content">
             <h2 class="title__secondary--dark"> The Scoop On Me </h2>
-            <p class="content--about-me">Hey! I&#39;m Brian a.k.a. BJ. As a Professional Email &amp; Web Developer, I love coding email templates and building SPA landing pages as well as personalized websites. I aim to create user-friendly and responsive experiences for diverse online audiences, so that your content can reach more people.</p>
+            <p class="content--about-me">Hey! I&#39;m Brian a.k.a. BJ. As a Professional Email &amp; Web Developer, I
+              love coding email templates and building SPA landing pages as well as personalized websites. I aim to
+              create user-friendly and responsive experiences for diverse online audiences, so that your content can
+              reach more people.</p>
           </div>
           <div class="flex__grow">
             <img src="assets/images/about_me_headshot.png" alt="" class="img__about--me">
@@ -142,9 +156,9 @@
             </div>
           </div>
           <div class="slider-wrapper">
-           <ul id="projects" class="slider__cards flex__wrap flex__container flex__justify-start">
-            <!--Dynamically Generated Project Cards-->
-           </ul>
+            <ul id="projects" class="slider__cards flex__wrap flex__container flex__justify-start">
+              <!--Dynamically Generated Project Cards-->
+            </ul>
           </div>
         </div>
       </section>
@@ -155,26 +169,32 @@
               <h2 class="title__secondary--skills">My Technologies</h2>
               <div class="flex__row--md gap20">
                 <div class="flex flex__around gap20 padB40">
-                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="#html-icon"></use>
                   </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <use xlink:href="#css3"></use>
-                 </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <use xlink:href="#javaScript"></use>
-                 </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#css3"></use>
+                  </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#javaScript"></use>
+                  </svg>
                 </div>
                 <div class="flex flex__around gap20">
-                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="#sass"></use>
                   </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <use xlink:href="#react"></use>
-                 </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <use xlink:href="#vue"></use>
-                 </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#react"></use>
+                  </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#vue"></use>
+                  </svg>
                 </div>
               </div>
             </div>
@@ -182,66 +202,72 @@
               <h2 class="title__secondary--skills">My Web Tool Kit</h2>
               <div class="flex__row--md gap20">
                 <div class="flex flex__around gap20 padB40">
-                <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <title>Git</title>
-                  <use href="#git-branch-icon"></use>
-                </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <use xlink:href="#github"></use>
-                 </svg>
-                 <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <use xlink:href="#vscode"></use>
-                 </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Git</title>
+                    <use href="#git-branch-icon"></use>
+                  </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="#000000"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#github"></use>
+                  </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#vscode-icon"></use>
+                  </svg>
                 </div>
                 <div class="flex flex__around gap20">
-                   <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <use xlink:href="#figma-icon"></use>
-                 </svg>
-                   <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#figma-icon"></use>
+                  </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="#dreamweaver"></use>
                   </svg>
-                    <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <use xlink:href="#litmus"></use>
-                 </svg>
+                  <svg class="skills__icon" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="#litmus"></use>
+                  </svg>
                 </div>
               </div>
             </div>
           </div>
           <div id="contact" class="form__container flex__grow glass3d">
             <form name="contact" method="POST" data-netlify="true" class="go-bottom">
-               <!-- This hidden input is REQUIRED for Netlify to identify the form -->
-    <input type="hidden" name="form-name" value="contact" />
+              <!-- This hidden input is REQUIRED for Netlify to identify the form -->
+              <input type="hidden" name="form-name" value="contact" />
               <h2 class="form__container--title">Facing a Coding Challenge</h2>
-            <p class="form__container--subtitle">
-              Let's tackle it!
-            </p>
-             <div class="input__field">
-  <input id="name" name="name" type="text" required spellcheck="false" minlength="2" placeholder=" ">
-  <label for="name">What's your name</label>
-  <p class="error-message">Name must be at least 2 characters.</p>
-</div>
+              <p class="form__container--subtitle">
+                Let's tackle it!
+              </p>
+              <div class="input__field">
+                <input id="name" name="name" type="text" required spellcheck="false" minlength="2" placeholder=" ">
+                <label for="name">What's your name</label>
+                <p class="error-message">Name must be at least 2 characters.</p>
+              </div>
 
-<div class="input__field">
-  <input id="emailname" name="emailname" type="email" required spellcheck="false" placeholder=" ">
-  <label for="emailname">Your Email</label>
-  <p class="error-message">Please provide a valid email.</p>
-</div>
+              <div class="input__field">
+                <input id="emailname" name="emailname" type="email" required spellcheck="false" placeholder=" ">
+                <label for="emailname">Your Email</label>
+                <p class="error-message">Please provide a valid email.</p>
+              </div>
 
-<div class="textarea__field">
-  <textarea name="message" id="message" required placeholder=" "></textarea>
-  <label for="message">What's the issue?</label>
-  <p class="error-message">This field is required.</p>
-</div>
+              <div class="textarea__field">
+                <textarea name="message" id="message" required placeholder=" "></textarea>
+                <label for="message">What's the issue?</label>
+                <p class="error-message">This field is required.</p>
+              </div>
 
               <button class="form__container--cta" type="submit">Send it My Way</button>
 
             </form>
             <!-- PURE HTML FORM FOR NETLIFY'S BOT - THIS WILL BE HIDDEN -->
-<form name="contact" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="emailname" />
-  <textarea name="message"></textarea>
-</form>
+            <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+              <input type="text" name="name" />
+              <input type="email" name="emailname" />
+              <textarea name="message"></textarea>
+            </form>
           </div>
         </div>
       </section>

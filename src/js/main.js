@@ -52,6 +52,20 @@ document.addEventListener('DOMContentLoaded', function () {
       use.setAttribute('href', newHref);
       use.setAttribute('xlink:href', newHref);
       console.log(`Icon #${index + 1}: SUCCESS. Path updated to ${newHref}`);
+
+      // ===================================================
+      // NEW: Check the rendered dimensions after a short delay
+      // ===================================================
+      setTimeout(() => {
+        const rect = use.getBoundingClientRect();
+        if (rect.width > 0 && rect.height > 0) {
+          console.log(`  -> ✅ Verification: Icon #${index + 1} is visible with dimensions ${Math.round(rect.width)}px x ${Math.round(rect.height)}px.`);
+        } else {
+          console.log(`  -> ❌ Verification: Icon #${index + 1} FAILED to render. Dimensions are 0x0.`);
+        }
+      }, 100); // 100ms delay to allow for rendering
+      // ===================================================
+
     } else {
       console.log(`Icon #${index + 1}: SKIPPED. Could not find a valid href starting with #.`);
     }
