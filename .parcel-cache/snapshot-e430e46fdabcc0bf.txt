@@ -1,17 +1,17 @@
-4833
+4832
 80C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\lmdb\bin134027588903570101 1
 87C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\yargs\index.cjs134027602020491563 0
 93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\sass\utilities\_functions.scss133931294230080338 0
 101C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\utils\src\debounce.js134027588887805615 0
 93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\msgpackr\iterators.js134027588887464686 0
-70C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\.activeFile134028082982050506 0
+70C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\.activeFile134028108502251125 0
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\weak-lru-cache\rollup.config.js134027588879091795 0
 96C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\semver\functions\sort.js134027588893887495 0
 115C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\packager-wasm\lib\wasm-sourcemap.js134027588878526885 0
 97C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\node-addon-api\napi-inl.h134027588884215993 0
 120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\minimatch\dist\esm\assert-valid-pattern.d.ts.map134027588888502722 0
 69C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\.gitignore133931294226183067 0
-71C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\package.json134028097216901268 0
+71C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\package.json134028109289357104 0
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\flexbox-gap.js134027588915504615 0
 89C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\type-fest\license134027588866469015 0
 96C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\node-addon-api\nothing.c134027588866330646 0
@@ -19,7 +19,7 @@
 100C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\workers\lib\child.js134027588883194550 0
 76C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\y18n134027602020721544 1
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\opus.js134027588923000737 0
-63C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist134028097351499159 1
+63C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist134028109397376041 1
 119C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h134027588902106367 0
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\rimraf\dist\commonjs\platform.d.ts134027588902086379 0
 95C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\chokidar\esm\handler.js134027588871731397 0
@@ -82,7 +82,7 @@
 107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\assets\images\email-promo-fashion-pulse2.jpg133931294228519463 0
 91C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core\util.d.ts134027588885244809 0
 97C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\yargs-parser\CHANGELOG.md134027602020791549 0
-73C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\index.html134028083438659388 0
+73C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\index.html134028109055986102 0
 99C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\commander\typings\esm.d.mts134027588886126002 0
 98C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\assets\images\litmus-tools-icon.svg133931294228819712 0
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\input-color.js134027588918811681 0
@@ -196,7 +196,7 @@
 93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\utils\LICENSE134027588876372436 0
 102C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\msgpackr\dist\index.min.js.map134027588893720989 0
 90C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\sass\components\_index.scss133931294229763766 0
-73C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\js\main.js134028062679753409 0
+73C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\js\main.js134028108098022313 0
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\regions\MS.js134027588921841569 0
 96C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\yargs-parser\LICENSE.txt134027602020841541 0
 95C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\sass\components\_navigation.scss134027877652118177 0
@@ -430,7 +430,7 @@
 111C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\src\assets\images\glaxy-background-webM-android.webm134027936899778793 0
 105C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\aac.js134027588876309060 0
 102C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\cjs\_to_array.cjs134027588897695561 0
-113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-macys-gift-finder-project-pics.086c3069.jpg134028097348785238 0
+113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-macys-gift-finder-project-pics.086c3069.jpg134028109394785306 0
 128C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE134027588883663941 0
 81C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\immutable134027588885412717 1
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\optimizer-svg\lib\SVGOptimizer.js134027588875125991 0
@@ -691,7 +691,7 @@
 94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\browserslist\README.md134027588884305983 0
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\menu.js134027588921366723 0
 100C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\electron-to-chromium\LICENSE134027588872971175 0
-101C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-discover-project-pic.030c981b.jpg134028097347203088 0
+101C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-discover-project-pic.030c981b.jpg134028109391736925 0
 94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\minipass\dist\commonjs134027588886354109 1
 90C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\utility-types\dist134027588888607259 1
 121C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\package-json-from-dist\dist\commonjs\index.js.map134027588882939064 0
@@ -1705,7 +1705,7 @@
 99C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\utils\src\config.js134027588885582758 0
 92C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\semver\ranges\ltr.js134027588889289683 0
 118C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\src\_class_private_field_init.mjs134027588916125245 0
-113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-macys-quick-reg-form-project-pic.436a2d18.jpg134028097347203088 0
+113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-macys-quick-reg-form-project-pic.436a2d18.jpg134028109391746931 0
 139C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\index.js134027588885081068 0
 107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\rimraf\dist\commonjs\default-tmp.js134027588871893651 0
 109C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\resolver-default\package.json134027588880354928 0
@@ -1737,7 +1737,7 @@
 94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\dotenv-expand\tea.yaml134027588883207708 0
 95C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\semver\functions\cmp.js134027588875293255 0
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\msgpackr-extract\node_modules\.bin134027588933949924 1
-107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\glaxy-background-webM-android.1c653e85.webm134028097351469173 0
+107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\glaxy-background-webM-android.1c653e85.webm134028109395264418 0
 98C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\semver\functions\coerce.js134027588878436842 0
 105C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\semver\functions\compare-loose.js134027588882633920 0
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\minimatch\dist\commonjs\unescape.d.ts.map134027588893489547 0
@@ -1811,7 +1811,7 @@
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_to_property_key134027588912105385 1
 92C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\emoji-regex\index.js134027588871966076 0
 93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\safe-buffer\README.md134027588875303327 0
-126C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-tvs-transactional-ODP-Reminder-project-pics.fd4bbc02.jpg134028097348775224 0
+126C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-tvs-transactional-ODP-Reminder-project-pics.fd4bbc02.jpg134028109394775289 0
 95C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\node-addon-api\index.js134027588888082612 0
 109C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\colr-v1.js134027588903108276 0
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\regions\HR.js134027588918078959 0
@@ -2711,7 +2711,7 @@
 104C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\jackspeak\dist\commonjs\index.js134027588871370146 0
 119C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\cjs\_skip_first_generator_next.cjs134027588897385238 0
 88C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\isexe\.npmignore134027588867117876 0
-122C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-gerber-promo-green-ln-4998-project-pics.b2a7884d.jpg134028097348785238 0
+122C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-gerber-promo-green-ln-4998-project-pics.b2a7884d.jpg134028109394775289 0
 85C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\isexe\LICENSE134027588874135161 0
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\regions\AF.js134027588884874124 0
 124C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\cjs\_class_extract_field_descriptor.cjs134027588888880613 0
@@ -2726,7 +2726,7 @@
 101C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\esm\_decorate.js134027588903944239 0
 117C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\referrer-policy.js134027588924270250 0
 125C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\runtime-js\src\helpers\browser\wasm-loader.js134027588893329536 0
-97C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\poster-video-bg-img.11f55b99.webp134028097348775224 0
+97C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\poster-video-bg-img.11f55b99.webp134028109391666927 0
 112C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\cliui\node_modules\string-width\index.js134027602019858147 0
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\RequestTracker.js134027588904488909 0
 92C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\isarray\package.json134027602019678149 0
@@ -3612,7 +3612,6 @@
 107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\proxy.js134027588923937228 0
 118C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\publickeypinning.js134027588924007237 0
 115C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\queryselector.js134027588924152380 0
-103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ff7134ee.js.map134028097351186602 0
 115C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\readonly-attr.js134027588924250250 0
 125C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\registerprotocolhandler.js134027588924320246 0
 116C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\caniuse-lite\data\features\rel-noreferrer.js134027588924370259 0
@@ -3792,7 +3791,7 @@
 112C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_class_private_method_get134027588908653188 1
 126C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_class_static_private_field_destructure134027588908804385 1
 123C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_class_static_private_field_spec_get134027588908844476 1
-74C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\index.html134028097351066479 0
+74C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\index.html134028109397086378 0
 122C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\transformer-babel\src\remapAstLocations.js134027588888556367 0
 123C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_class_static_private_field_spec_set134027588908874476 1
 128C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs134027588915345067 0
@@ -3835,7 +3834,7 @@
 117C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_tagged_template_literal_loose134027588911205772 1
 103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\utils\src\getRootDir.js134027588890801529 0
 93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_throw134027588911350954 1
-93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\apple-touch-icon.ba08ca76.png134028097347213089 0
+93C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\apple-touch-icon.ba08ca76.png134028109394785306 0
 114C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_ts_add_disposable_resource134027588912185387 1
 99C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_ts_decorate134027588912306401 1
 108C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\_\_ts_dispose_resources134027588912356374 1
@@ -4033,7 +4032,7 @@
 108C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\esm\_to_property_key.js134027588905697308 0
 97C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\cjs\_jsx.cjs134027588896264932 0
 119C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\esm\_ts_add_disposable_resource.js134027588905729126 0
-120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-rakuten-kobo-preference-ctr-project-pic.5d3ff01d.jpg134028097347203088 0
+120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-rakuten-kobo-preference-ctr-project-pic.5d3ff01d.jpg134028109391746931 0
 115C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\test\fixtures\config\.parcelrc134027588885071064 0
 104C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\esm\_ts_decorate.js134027588905754283 0
 101C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\helpers\esm\_ts_param.js134027588905873536 0
@@ -4093,6 +4092,7 @@
 94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\counter\README.md134027588872648438 0
 106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core-win32-x64-msvc\README.md134027588871440125 0
 120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core-win32-x64-msvc\swc.win32-x64-msvc.node134027588911124417 0
+99C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ed1f0c43.js134028109397076294 0
 92C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core\binding.js134027588880354928 0
 90C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core\index.js134027588882668972 0
 92C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@swc\core\spack.d.ts134027588884457540 0
@@ -4695,7 +4695,7 @@
 118C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js134027588891844958 0
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\AssetRequest.js134027588892480278 0
 114C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\ConfigRequest.js134027588896101812 0
-70C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets134028097348655221 1
+70C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets134028109391506920 1
 114C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\DevDepRequest.js134027588897290702 0
 113C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\EntryRequest.js134027588897577367 0
 115C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\@parcel\core\lib\requests\PackageRequest.js134027588901792477 0
@@ -4817,18 +4817,17 @@
 85C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\.bin\sass.cmd134027588933989923 0
 85C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\.bin\sass.ps1134027588933989923 0
 87C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\node_modules\.bin\semver.ps1134027588933979927 0
-94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\about_me_headshot.d0bbd120.png134028097348775224 0
-100C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ea0d1693.css134028097351066479 0
-104C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ea0d1693.css.map134028097351186602 0
-99C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ff7134ee.js134028097351076454 0
-88C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-icon-map.9efbf3db.svg134028097347529973 0
-91C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\BJ_Header_Logo.82b349c6.png134028097347108314 0
-124C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-ATT-Movies-Newsletter-Barbie-project-pics.2dae06d9.jpg134028097348785238 0
-121C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-gerber-promo-growth-chart-project-pics.a5f3e447.jpg134028097348785238 0
-110C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-tvs-newsletter-project-pics.ed0981c4.jpg134028097348785238 0
-98C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\galaxy-background-ios.4692a9a0.mp4134028097349363932 0
-107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-awards-xfinity-project-pic.40d446aa.jpg134028097347213089 0
-106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-DSS-framework-project-pic.a070ed13.jpg134028097347203088 0
-120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-xumoTV-custom-checkbox-form-project-pic.28a00a0f.jpg134028097347203088 0
-77C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets\images134028097348835230 1
-129C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets\images\REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf134028097348785238 0
+94C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\about_me_headshot.d0bbd120.png134028109394775289 0
+100C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ea0d1693.css134028109397076294 0
+104C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ea0d1693.css.map134028109397140840 0
+103C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\bj-digital-portfolio-v4.ed1f0c43.js.map134028109397140840 0
+91C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\BJ_Header_Logo.82b349c6.png134028109394765295 0
+124C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-ATT-Movies-Newsletter-Barbie-project-pics.2dae06d9.jpg134028109394775289 0
+121C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-gerber-promo-growth-chart-project-pics.a5f3e447.jpg134028109394775289 0
+110C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\email-tvs-newsletter-project-pics.ed0981c4.jpg134028109394775289 0
+98C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\galaxy-background-ios.4692a9a0.mp4134028109397356041 0
+107C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-awards-xfinity-project-pic.40d446aa.jpg134028109391746931 0
+106C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-DSS-framework-project-pic.a070ed13.jpg134028109391746931 0
+120C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\web-xumoTV-custom-checkbox-form-project-pic.28a00a0f.jpg134028109391746931 0
+77C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets\images134028109391776926 1
+129C:\Users\Johns\Desktop\local-sites\bj-digital-portfolio-v4\dist\assets\images\REVAMPED-Sept-Brian-Johnson-Professional-Resume.pdf134028109391746931 0
